@@ -14,7 +14,7 @@
         android:layout_height="500dp"
         android:layout_marginTop="-150dp"
         android:layout_gravity="center"
-        app:srcCompat="@drawable/addnewoffer" />
+        app:srcCompat="@drawable/addnewschool" />
 
     <TextView
         android:id="@+id/schoolNameTV"
