@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe8a8"
+    tools:context=".CompareSchoolsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="104dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-170dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/compareoffers" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-170dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/incomeTextView"-->
+            <!--                android:layout_width="50dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginStart="20dp"-->
+            <!--                android:layout_marginEnd="20dp"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:gravity="center"-->
+            <!--                android:text="$75,000"-->
+            <!--                android:textSize="34sp" />-->
+
+            <EditText
+                android:id="@+id/enterIncomeEditText"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Enter Income"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:inputType="textPersonName"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/seeTaxesButton"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="0.25"
+                android:clickable="false"
+                android:text="See Tax Info"
+                android:textColor="#0c1618"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/stateOneTextView"-->
+            <!--                android:layout_width="50dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginStart="20dp"-->
+            <!--                android:layout_marginEnd="20dp"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:gravity="center"-->
+            <!--                android:text="Florida"-->
+            <!--                android:textSize="34sp" />-->
+            <AutoCompleteTextView
+                android:id="@+id/firstStateACTV"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="34sp"
+                android:autoSizeMinTextSize="30sp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:hint="State #1"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:maxLines="2"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <AutoCompleteTextView
+                android:id="@+id/secondStateACTV"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="34sp"
+                android:autoSizeMinTextSize="30sp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:hint="State #2"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:maxLines="2"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/startComparisonButton"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:text="Start Comparison"
+            android:textColor="#0c1618"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="34sp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

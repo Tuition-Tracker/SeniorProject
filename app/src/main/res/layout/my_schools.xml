@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe8a8"
+    tools:context=".MySchools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="104dp">
+
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_marginTop="-150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/myoffers" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="300dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:background="#94ccbc"
+            android:text="add new schools"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#0c1618"
+            android:textSize="26dp"
+            android:layout_marginTop="-130dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="300dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:background="#94ccbc"
+            android:text="View by Map"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#0c1618"
+            android:textSize="26dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/list"
+            android:layout_width="300dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:background="#94ccbc"
+            android:text="View by List"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#0c1618"
+            android:textSize="26dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"/>
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="300dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:background="#94ccbc"
+            android:text="back"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#0c1618"
+            android:textSize="26dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginBottom="20dp"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

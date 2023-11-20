@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe8a8"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="104dp">
+
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_marginTop="-170dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/howitworks" />
+
+        <TextView
+            android:layout_width="355dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-200dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Tuition Tracker makes it easy to compare schools across different states in the US. All you need is the school name, location, and whether you would receive in-state or out-of-state tuition costs."
+            android:textAlignment="textStart"
+            android:textColor="#0c1618"
+            android:textSize="25dp" />
+
+
+        <TextView
+            android:layout_width="355dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-200dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="With this information, Tuition Tracker will show you how much expected tuition costs are in each state after accounting for state tax, income tax, cost of living, and other state-specific expenses."
+            android:textAlignment="textStart"
+            android:textColor="#0c1618"
+            android:textSize="25dp" />
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="300dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:background="#94ccbc"
+            android:text="back"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#0c1618"
+            android:textSize="26dp"
+            android:layout_marginTop="-160dp"
+            android:layout_marginBottom="20dp"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

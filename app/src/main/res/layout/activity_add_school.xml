@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".AddSchoolActivity"
+    android:background="#ffe8a8">
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="-150dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/addnewoffer" />
+
+    <TextView
+        android:id="@+id/schoolNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-140dp"
+        android:text="School Name"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#0c1618"/>
+
+    <EditText
+        android:id="@+id/schoolNameET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#737373"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#0c1618"
+        android:textColorHighlight="#737373"
+        android:textColorHint="#737373"
+        android:textColorLink="#737373"
+        android:textCursorDrawable="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/locationTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Location (City, State)"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#0c1618"/>
+
+    <EditText
+        android:id="@+id/locationET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#737373"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#0c1618"
+        android:textColorHighlight="#737373"
+        android:textColorHint="#737373"
+        android:textColorLink="#737373"
+        android:textCursorDrawable="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/incomeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="In-State or Out-of-State?"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#0c1618"/>
+
+    <EditText
+        android:id="@+id/incomeET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#737373"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#0c1618"
+        android:textColorHighlight="#737373"
+        android:textColorHint="#737373"
+        android:textColorLink="#737373"
+        android:textCursorDrawable="@color/black"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:background="#94ccbc"
+        android:onClick="saveSchoolAction"
+        android:text="Save"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#0c1618"
+        android:textSize="26dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

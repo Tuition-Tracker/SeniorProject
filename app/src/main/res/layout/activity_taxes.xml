@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe8a8"
+    tools:context=".TaxesActivity">
+
+    <TextView
+        android:id="@+id/taxesTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="TAXES BASED ON INCOME"
+        android:textColor="#0c1618"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/federalTextView"
+        android:layout_width="170dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/text_box"
+        android:gravity="center"
+        android:hint="$408"
+        android:textColor="#0c1618"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taxesTitleTextView" />
+
+    <TextView
+        android:id="@+id/federalLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Federal Tax"
+        android:textColor="#0c1618"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/federalTextView"
+        app:layout_constraintStart_toStartOf="@+id/federalTextView"
+        app:layout_constraintTop_toBottomOf="@+id/federalTextView" />
+
+    <TextView
+        android:id="@+id/medicareTextView"
+        android:layout_width="170dp"
+        android:layout_height="105dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/text_box"
+        android:gravity="center"
+        android:hint="$408"
+        android:textColor="#0c1618"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/federalTextView" />
+
+    <TextView
+        android:id="@+id/medicareLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Medicare"
+        android:textColor="#0c1618"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/medicareTextView"
+        app:layout_constraintStart_toStartOf="@+id/medicareTextView"
+        app:layout_constraintTop_toBottomOf="@+id/medicareTextView" />
+
+    <TextView
+        android:id="@+id/socialSecurityTextView"
+        android:layout_width="170dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/text_box"
+        android:gravity="center"
+        android:hint="$408"
+        android:textColor="#0c1618"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/medicareTextView"
+        app:layout_constraintStart_toStartOf="@+id/federalTextView"
+        app:layout_constraintTop_toBottomOf="@+id/federalLabelTextView" />
+
+    <TextView
+        android:id="@+id/socialSecurityLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Social Security"
+        android:textColor="#0c1618"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/socialSecurityTextView"
+        app:layout_constraintStart_toStartOf="@+id/socialSecurityTextView"
+        app:layout_constraintTop_toBottomOf="@+id/socialSecurityTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
