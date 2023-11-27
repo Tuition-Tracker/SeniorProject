@@ -76,6 +76,33 @@ public class UniversityData {
         universities.add(new University("Arizona", "University of Advancing Technology", 18794, 18794));
         universities.add(new University("Arizona", "University of Arizona", 13275, 39577));
         universities.add(new University("Arizona", "University of Phoenix - Arizona", 9552, 9552));
+        universities.add(new University("Arkansas", "Arkansas Baptist College", 8760, 8760));
+        universities.add(new University("Arkansas", "Arkansas State University", 7456, 13312));
+        universities.add(new University("Arkansas", "Arkansas Tech University", 8071, 13891));
+        universities.add(new University("Arkansas", "Central Baptist College", 17700, 17700));
+        universities.add(new University("Arkansas", "Champion Christian College", 7755, 7755));
+        universities.add(new University("Arkansas", "Crowley's Ridge College", 15000, 15000));
+        universities.add(new University("Arkansas", "Ecclesia College", 16850, 16850));
+        universities.add(new University("Arkansas", "Harding University", 23148, 23148));
+        universities.add(new University("Arkansas", "Henderson State University", 7560, 9768));
+        universities.add(new University("Arkansas", "Hendrix College", 35100, 35100));
+        universities.add(new University("Arkansas", "Jackson Theological Seminary", 6000, 6000));
+        universities.add(new University("Arkansas", "John Brown University", 29720, 29720));
+        universities.add(new University("Arkansas", "Lyon College", 31000, 31000));
+        universities.add(new University("Arkansas", "Ouachita Baptist University", 31180, 31180));
+        universities.add(new University("Arkansas", "Philander Smith College", 13014, 13014));
+        universities.add(new University("Arkansas", "Southern Arkansas University Main Campus", 9680, 15110));
+        universities.add(new University("Arkansas", "Strayer University - Arkansas", 13515, 13515));
+        universities.add(new University("Arkansas", "University of Arkansas", 9656, 27410));
+        universities.add(new University("Arkansas", "University of Arkansas at Little Rock", 8366, 18957));
+        universities.add(new University("Arkansas", "University of Arkansas at Monticello", 8431, 14281));
+        universities.add(new University("Arkansas", "University of Arkansas at Pine Bluff", 8668, 15838));
+        universities.add(new University("Arkansas", "University of Arkansas for Medical Sciences", 7068, 14586));
+        universities.add(new University("Arkansas", "University of Arkansas Grantham", 8280, 8280));
+        universities.add(new University("Arkansas", "University of Arkansas - Fort Smith", 6168, 13440));
+        universities.add(new University("Arkansas", "University of Central Arkansas", 9778, 16728));
+        universities.add(new University("Arkansas", "University of the Ozarks", 25950, 25950));
+        universities.add(new University("Arkansas", "Williams Baptist University", 19450, 19450));
     }
 }
 
