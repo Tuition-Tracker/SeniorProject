@@ -41,6 +41,12 @@ public class UniversityData {
         universities.add(new University("Alabama", "University of North Alabama", 11220, 21420));
         universities.add(new University("Alabama", "University of South Alabama", 9116, 17732));
         universities.add(new University("Alabama", "University of West Alabama", 10990, 20090));
+        universities.add(new University("Alaska", "Alaska Bible College", 10900, 10900));
+        universities.add(new University("Alaska", "Alaska Pacific University", 20760, 20760));
+        universities.add(new University("Alaska", "Ilisagvik College", 5260, 5260));
+        universities.add(new University("Alaska", "University of Alaska Anchorage", 7508, 21635));
+        universities.add(new University("Alaska", "University of Alaska Fairbanks", 7896, 22032));
+        universities.add(new University("Alaska", "University of Alaska Southeast", 6960, 21096));
     }
 }
 
