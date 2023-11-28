@@ -403,6 +403,17 @@ public class UniversityData {
         universities.add(new University("Hawaii", "University of Hawaii at Manoa", 12186, 34218));
         universities.add(new University("Hawaii", "University of Hawaii Maui College", 3284, 8420));
         universities.add(new University("Hawaii", "University of Hawaii - West Oahu", 7584, 20544));
+        universities.add(new University("Idaho", "Boise Bible College", 9770, 9770));
+        universities.add(new University("Idaho", "Boise State University", 8364, 25701));
+        universities.add(new University("Idaho", "Brigham Young University - Idaho", 4536, 4536));
+        universities.add(new University("Idaho", "College of Southern Idaho", 4560, 6840));
+        universities.add(new University("Idaho", "Idaho State University", 7958, 25936));
+        universities.add(new University("Idaho", "Lewis-Clark State College", 6999, 20252));
+        universities.add(new University("Idaho", "New Saint Andrews College", 14500, 14500));
+        universities.add(new University("Idaho", "Northwest Nazarene University", 36298, 36298));
+        universities.add(new University("Idaho", "The College of Idaho", 34630, 34630));
+        universities.add(new University("Idaho", "University of Idaho", 8396, 27632));
+        //Illinois
     }
 }
 
