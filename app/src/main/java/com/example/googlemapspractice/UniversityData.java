@@ -381,6 +381,18 @@ public class UniversityData {
         universities.add(new University("Delaware", "Strayer University - Delaware", 13515, 13515));
         universities.add(new University("Delaware", "University of Delaware", 15410, 37930));
         universities.add(new University("Delaware", "Wilmington University", 12030, 12030));
+        universities.add(new University("District of Columbia", "American University", 53889, 53889));
+        universities.add(new University("District of Columbia", "Gallaudet University", 17712, 17712));
+        universities.add(new University("District of Columbia", "George Washington University", 62200, 62200));
+        universities.add(new University("District of Columbia", "Georgetown University", 62052, 62052));
+        universities.add(new University("District of Columbia", "Howard University", 31050, 31050));
+        universities.add(new University("District of Columbia", "NewU University", 16500, 16500));
+        universities.add(new University("District of Columbia", "Strayer University - District of Columbia", 13515, 13515));
+        universities.add(new University("District of Columbia", "Strayer University - Global Region", 13515, 13515));
+        universities.add(new University("District of Columbia", "The Catholic University of America", 54186, 54186));
+        universities.add(new University("District of Columbia", "Trinity Washington University", 25610, 25610));
+        universities.add(new University("District of Columbia", "University of the District of Columbia", 6152, 13004));
+        universities.add(new University("District of Columbia", "University of the Potomac - Washington DC Campus", 6660, 6660));
     }
 }
 
