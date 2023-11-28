@@ -414,6 +414,40 @@ public class UniversityData {
         universities.add(new University("Idaho", "The College of Idaho", 34630, 34630));
         universities.add(new University("Idaho", "University of Idaho", 8396, 27632));
         //Illinois
+        universities.add(new University("Iowa", "Allen College", 20008, 20008));
+        universities.add(new University("Iowa", "Briar Cliff University", 34498, 34498));
+        universities.add(new University("Iowa", "Buena Vista University", 38644, 38644));
+        universities.add(new University("Iowa", "Central College", 19800, 19800));
+        universities.add(new University("Iowa", "Clarke University", 38060, 38060));
+        universities.add(new University("Iowa", "Coe College", 50664, 50664));
+        universities.add(new University("Iowa", "Cornell College", 49158, 49158));
+        universities.add(new University("Iowa", "Divine Word College", 14620, 14620));
+        universities.add(new University("Iowa", "Dordt University", 34600, 34600));
+        universities.add(new University("Iowa", "Drake University", 47742, 47742));
+        universities.add(new University("Iowa", "Emmaus Bible College", 19800, 19800));
+        universities.add(new University("Iowa", "Faith Baptist Bible College and Theological Seminary", 18740, 18740));
+        universities.add(new University("Iowa", "Graceland University - Lamoni", 31970, 31970));
+        universities.add(new University("Iowa", "Grand View University", 32068, 32068));
+        universities.add(new University("Iowa", "Grinnell College", 61480, 61480));
+        universities.add(new University("Iowa", "Iowa State University", 10133, 26617));
+        universities.add(new University("Iowa", "Iowa Wesleyan University", 34700, 34700));
+        universities.add(new University("Iowa", "Loras College", 36570, 36570));
+        universities.add(new University("Iowa", "Luther College", 48160, 48160));
+        universities.add(new University("Iowa", "Maharishi International University", 16530, 16530));
+        universities.add(new University("Iowa", "Mercy College of Health Sciences", 16632, 16632));
+        universities.add(new University("Iowa", "Morningside University", 36610, 36610));
+        universities.add(new University("Iowa", "Mount Mercy University", 37606, 37606));
+        universities.add(new University("Iowa", "Northwestern College", 34250, 34250));
+        universities.add(new University("Iowa", "Palmer College of Chiropractic", 11025, 11025));
+        universities.add(new University("Iowa", "Saint Ambrose University", 34570, 34570));
+        universities.add(new University("Iowa", "Simpson College", 45108, 45108));
+        universities.add(new University("Iowa", "St Luke's College", 20940, 20940));
+        universities.add(new University("Iowa", "University of Dubuque", 38526, 38526));
+        universities.add(new University("Iowa", "University of Iowa", 10353, 32316));
+        universities.add(new University("Iowa", "University of Northern Iowa", 9411, 20565));
+        universities.add(new University("Iowa", "Upper Iowa University", 33639, 33639));
+        universities.add(new University("Iowa", "Wartburg College", 49190, 49190));
+        universities.add(new University("Iowa", "William Penn University", 27800, 27800));
     }
 }
 
