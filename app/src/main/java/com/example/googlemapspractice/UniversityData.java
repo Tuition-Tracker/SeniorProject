@@ -352,6 +352,29 @@ public class UniversityData {
         universities.add(new University("Colorado", "University of Denver", 56439, 56439));
         universities.add(new University("Colorado", "University of Northern Colorado", 11332, 24722));
         universities.add(new University("Colorado", "Western Colorado University", 10813, 22837));
+        universities.add(new University("Connecticut", "Albertus Magnus College", 37682, 37682));
+        universities.add(new University("Connecticut", "Central Connecticut State University", 12106, 24994));
+        universities.add(new University("Connecticut", "Charter Oak State College", 8254, 10796));
+        universities.add(new University("Connecticut", "Connecticut College", 63005, 63005));
+        universities.add(new University("Connecticut", "Eastern Connecticut State University", 12910, 16146));
+        universities.add(new University("Connecticut", "Fairfield University", 54455, 54455));
+        universities.add(new University("Connecticut", "Goodwin University", 21198, 21198));
+        universities.add(new University("Connecticut", "Holy Apostles College and Seminary", 9440, 9440));
+        universities.add(new University("Connecticut", "Mitchell College", 37250, 37250));
+        universities.add(new University("Connecticut", "Paier College", 24480, 24480));
+        universities.add(new University("Connecticut", "Post University", 16610, 16610));
+        universities.add(new University("Connecticut", "Quinnipiac University", 51790, 51790));
+        universities.add(new University("Connecticut", "Sacred Heart University", 46580, 46580));
+        universities.add(new University("Connecticut", "Southern Connecticut State University", 12438, 25326));
+        universities.add(new University("Connecticut", "Trinity College", 63930, 63930));
+        universities.add(new University("Connecticut", "University of Bridgeport", 35760, 35760));
+        universities.add(new University("Connecticut", "University of Connecticut", 19434, 42102));
+        universities.add(new University("Connecticut", "University of Hartford", 46148, 46148));
+        universities.add(new University("Connecticut", "University of New Haven", 44184, 44184));
+        universities.add(new University("Connecticut", "University of Saint Joseph", 44366, 44366));
+        universities.add(new University("Connecticut", "Wesleyan University", 64322, 64322));
+        universities.add(new University("Connecticut", "Western Connecticut State University", 12345, 25239));
+        universities.add(new University("Connecticut", "Yale University", 62250, 62250));
     }
 }
 
