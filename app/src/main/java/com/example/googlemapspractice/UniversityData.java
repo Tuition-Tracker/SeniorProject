@@ -375,6 +375,12 @@ public class UniversityData {
         universities.add(new University("Connecticut", "Wesleyan University", 64322, 64322));
         universities.add(new University("Connecticut", "Western Connecticut State University", 12345, 25239));
         universities.add(new University("Connecticut", "Yale University", 62250, 62250));
+        universities.add(new University("Delaware", "Delaware State University", 8358, 18280));
+        universities.add(new University("Delaware", "Delaware Technical Community College - Terry", 4945, 11808));
+        universities.add(new University("Delaware", "Goldey - Beacom College", 13050, 13050));
+        universities.add(new University("Delaware", "Strayer University - Delaware", 13515, 13515));
+        universities.add(new University("Delaware", "University of Delaware", 15410, 37930));
+        universities.add(new University("Delaware", "Wilmington University", 12030, 12030));
     }
 }
 
