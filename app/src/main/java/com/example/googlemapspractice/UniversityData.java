@@ -393,6 +393,16 @@ public class UniversityData {
         universities.add(new University("District of Columbia", "Trinity Washington University", 25610, 25610));
         universities.add(new University("District of Columbia", "University of the District of Columbia", 6152, 13004));
         universities.add(new University("District of Columbia", "University of the Potomac - Washington DC Campus", 6660, 6660));
+        //Florida
+        //Georgia
+        universities.add(new University("Hawaii", "Brigham Young University - Hawaii", 6250, 6250));
+        universities.add(new University("Hawaii", "Chaminade University of Honolulu", 28544, 28544));
+        universities.add(new University("Hawaii", "Hawaii Pacific University", 31940, 31940));
+        universities.add(new University("Hawaii", "Pacific Rim Christian University", 12380, 12380));
+        universities.add(new University("Hawaii", "University of Hawaii at Hilo", 7838, 20798));
+        universities.add(new University("Hawaii", "University of Hawaii at Manoa", 12186, 34218));
+        universities.add(new University("Hawaii", "University of Hawaii Maui College", 3284, 8420));
+        universities.add(new University("Hawaii", "University of Hawaii - West Oahu", 7584, 20544));
     }
 }
 
