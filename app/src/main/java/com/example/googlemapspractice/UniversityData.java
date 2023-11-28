@@ -317,6 +317,41 @@ public class UniversityData {
         universities.add(new University("California", "Woodbury University", 44908, 44908));
         universities.add(new University("California", "World Mission University", 6680, 6680));
         universities.add(new University("California", "Yeshiva Ohr Elchonon Chabad West Coast Talmudical Seminary", 15700, 15700));
+        universities.add(new University("Colorado", "Adams State University", 9776, 21848));
+        universities.add(new University("Colorado", "Arapahoe Community College", 4080, 15502));
+        universities.add(new University("Colorado", "Colorado Christian University", 37432, 37432));
+        universities.add(new University("Colorado", "Colorado College", 65028, 65028));
+        universities.add(new University("Colorado", "Colorado Mesa University", 9297, 23019));
+        universities.add(new University("Colorado", "Colorado Mountain College", 4980, 11820));
+        universities.add(new University("Colorado", "Colorado School of Mines", 20040, 42120));
+        universities.add(new University("Colorado", "Colorado State University Global", 8400, 8400));
+        universities.add(new University("Colorado", "Colorado State University Pueblo", 9245, 16324));
+        universities.add(new University("Colorado", "Colorado State University - Fort Collins", 12874, 32734));
+        universities.add(new University("Colorado", "Colorado Technical University - Colorado Springs", 12696, 12696));
+        universities.add(new University("Colorado", "Community College of Denver", 4586, 16235));
+        universities.add(new University("Colorado", "Concorde Career College - Aurora", 16434, 16434));
+        universities.add(new University("Colorado", "Denver College of Nursing", 10759, 10759));
+        universities.add(new University("Colorado", "DeVry University - Colorado", 17488, 17488));
+        universities.add(new University("Colorado", "Fort Lewis College", 9212, 19724));
+        universities.add(new University("Colorado", "Front Range Community College", 4126, 15776));
+        universities.add(new University("Colorado", "Metropolitan State University of Denver", 10260, 28092));
+        universities.add(new University("Colorado", "Morgan Community College", 3930, 15579));
+        universities.add(new University("Colorado", "Naropa University", 34600, 34600));
+        universities.add(new University("Colorado", "Nazarene Bible College", 10002, 10002));
+        universities.add(new University("Colorado", "Pikes Peak State College", 4065, 15714));
+        universities.add(new University("Colorado", "Platt College - Aurora", 20590, 20590));
+        universities.add(new University("Colorado", "Pueblo Community College", 4626, 16275));
+        universities.add(new University("Colorado", "Red Rocks Community College", 4471, 16135));
+        universities.add(new University("Colorado", "Regis University", 42220, 42220));
+        universities.add(new University("Colorado", "Rocky Mountain College of Art and Design", 22607, 22607));
+        universities.add(new University("Colorado", "Taft University System", 3600, 3600));
+        universities.add(new University("Colorado", "Trinidad State College", 5194, 8314));
+        universities.add(new University("Colorado", "University of Colorado Boulder", 13106, 40356));
+        universities.add(new University("Colorado", "University of Colorado Colorado Springs", 9129, 22041));
+        universities.add(new University("Colorado", "University of Colorado Denver/Anschutz Medical Campus", 9562, 26818));
+        universities.add(new University("Colorado", "University of Denver", 56439, 56439));
+        universities.add(new University("Colorado", "University of Northern Colorado", 11332, 24722));
+        universities.add(new University("Colorado", "Western Colorado University", 10813, 22837));
     }
 }
 
