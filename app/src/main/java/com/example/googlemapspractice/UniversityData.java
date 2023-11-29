@@ -715,6 +715,36 @@ public class UniversityData {
         universities.add(new University("Kentucky", "University of Pikeville", 23150, 23150));
         universities.add(new University("Kentucky", "University of the Cumberlands", 9875, 9875));
         universities.add(new University("Kentucky", "Western Kentucky University", 11112, 27000));
+        universities.add(new University("Louisiana", "Bridges Christian College", 6600, 6600));
+        universities.add(new University("Louisiana", "Centenary College of Louisiana", 38820, 38820));
+        universities.add(new University("Louisiana", "Dillard University", 20224, 20224));
+        universities.add(new University("Louisiana", "Franciscan Missionaries of Our Lady University", 15012, 15012));
+        universities.add(new University("Louisiana", "Grambling State University", 7683, 16706));
+        universities.add(new University("Louisiana", "Herzing University - New Orleans", 12750, 12750));
+        universities.add(new University("Louisiana", "Louisiana Christian University", 19720, 19720));
+        universities.add(new University("Louisiana", "Louisiana State University and Agricultural & Mechanical College", 11954, 28631));
+        universities.add(new University("Louisiana", "Louisiana State University Health Sciences Center-New Orleans", 7020, 15495));
+        universities.add(new University("Louisiana", "Louisiana State University Health Sciences Center-Shreveport", 8992, 19863));
+        universities.add(new University("Louisiana", "Louisiana State University - Alexandria", 7050, 14650));
+        universities.add(new University("Louisiana", "Louisiana State University - Shreveport", 7327, 20481));
+        universities.add(new University("Louisiana", "Louisiana Tech University", 10065, 16806));
+        universities.add(new University("Louisiana", "Loyola University New Orleans", 45030, 45030));
+        universities.add(new University("Louisiana", "McNeese State University", 8440, 9940));
+        universities.add(new University("Louisiana", "NationsUniversity", 1800, 1800));
+        universities.add(new University("Louisiana", "New Orleans Baptist Theological Seminary", 10820, 10820));
+        universities.add(new University("Louisiana", "Nicholls State University", 8156, 9249));
+        universities.add(new University("Louisiana", "Northwestern State University of Louisiana", 8672, 19460));
+        universities.add(new University("Louisiana", "Remington College - Shreveport Campus", 23477, 23477));
+        universities.add(new University("Louisiana", "Saint Joseph Seminary College", 24725, 24725));
+        universities.add(new University("Louisiana", "Southeastern Louisiana University", 8373, 20851));
+        universities.add(new University("Louisiana", "Southern University and A & M College", 9848, 17198));
+        universities.add(new University("Louisiana", "Southern University at New Orleans", 7471, 16371));
+        universities.add(new University("Louisiana", "Tulane University of Louisiana", 62844, 62844));
+        universities.add(new University("Louisiana", "University of Holy Cross", 15960, 15960));
+        universities.add(new University("Louisiana", "University of Louisiana at Lafayette", 10382, 24110));
+        universities.add(new University("Louisiana", "University of Louisiana at Monroe", 9082, 21182));
+        universities.add(new University("Louisiana", "University of New Orleans", 9172, 14008));
+        universities.add(new University("Louisiana", "Xavier University of Louisiana", 26863, 26863));
     }
 }
 
