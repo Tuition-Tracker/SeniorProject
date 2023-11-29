@@ -685,6 +685,36 @@ public class UniversityData {
         universities.add(new University("Kansas", "Wichita State University-Campus of Applied Sciences and Technology", 5715, 6578));
         universities.add(new University("Kansas", "Wichita Technical Institute", 18085, 18085));
         universities.add(new University("Kansas", "Z Hair Academy", 17250, 17250));
+        universities.add(new University("Kentucky", "Alice Lloyd College", 14250, 14250));
+        universities.add(new University("Kentucky", "Asbury University", 33146, 33146));
+        universities.add(new University("Kentucky", "Bellarmine University", 46030, 46030));
+        universities.add(new University("Kentucky", "Berea College", 45026, 45026));
+        universities.add(new University("Kentucky", "Brescia University", 27950, 27950));
+        universities.add(new University("Kentucky", "Campbellsville University", 26100, 26100));
+        universities.add(new University("Kentucky", "Centre College", 48070, 48070));
+        universities.add(new University("Kentucky", "Clear Creek Baptist Bible College", 9970, 9970));
+        universities.add(new University("Kentucky", "Eastern Kentucky University", 9844, 20222));
+        universities.add(new University("Kentucky", "Georgetown College", 41600, 41600));
+        universities.add(new University("Kentucky", "Kentucky Christian University", 23700, 23700));
+        universities.add(new University("Kentucky", "Kentucky Mountain Bible College", 10060, 10060));
+        universities.add(new University("Kentucky", "Kentucky State University", 9004, 12882));
+        universities.add(new University("Kentucky", "Kentucky Wesleyan College", 31300, 31300));
+        universities.add(new University("Kentucky", "Lindsey Wilson College", 26228, 26228));
+        universities.add(new University("Kentucky", "Midway University", 25050, 25050));
+        universities.add(new University("Kentucky", "Morehead State University", 9560, 14286));
+        universities.add(new University("Kentucky", "Murray State University", 9432, 18888));
+        universities.add(new University("Kentucky", "Northern Kentucky University", 10592, 20848));
+        universities.add(new University("Kentucky", "Simmons College of Kentucky", 16398, 16398));
+        universities.add(new University("Kentucky", "Spalding University", 27300, 27300));
+        universities.add(new University("Kentucky", "The Southern Baptist Theological Seminary", 12000, 12000));
+        universities.add(new University("Kentucky", "Thomas More University", 35810, 35810));
+        universities.add(new University("Kentucky", "Transylvania University", 43670, 43670));
+        universities.add(new University("Kentucky", "Union College", 30946, 30946));
+        universities.add(new University("Kentucky", "University of Kentucky", 12859, 32276));
+        universities.add(new University("Kentucky", "University of Louisville", 12520, 28866));
+        universities.add(new University("Kentucky", "University of Pikeville", 23150, 23150));
+        universities.add(new University("Kentucky", "University of the Cumberlands", 9875, 9875));
+        universities.add(new University("Kentucky", "Western Kentucky University", 11112, 27000));
     }
 }
 
