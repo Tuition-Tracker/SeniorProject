@@ -958,6 +958,30 @@ public class UniversityData {
         universities.add(new University("Nebraska", "Wayne State College", 7688, 7688));
         universities.add(new University("Nebraska", "Western Nebraska Community College", 2976, 3072));
         universities.add(new University("Nebraska", "York University", 20950, 20950));
+        universities.add(new University("Nevada", "College of Southern Nevada", 3968, 11869));
+        universities.add(new University("Nevada", "Great Basin College", 3772, 11147));
+        universities.add(new University("Nevada", "Nevada State College", 6225, 19964));
+        universities.add(new University("Nevada", "Truckee Meadows Community College", 3162, 10639));
+        universities.add(new University("Nevada", "University of Nevada-Las Vegas", 8947, 25489));
+        universities.add(new University("Nevada", "University of Nevada-Reno", 8797, 25351));
+        universities.add(new University("Nevada", "Western Nevada College", 3838, 11738));
+        universities.add(new University("Nevada", "Roseman University of Health Sciences", 41667, 41667));
+        universities.add(new University("Nevada", "Touro University Nevada", 10290, 10290));
+        universities.add(new University("Nevada", "Academy of Hair Design-Las Vegas", 20925, 20925));
+        universities.add(new University("Nevada", "Advanced Training Institute", 12995, 12995));
+        universities.add(new University("Nevada", "Arizona College of Nursing-Las Vegas", 21653, 21653));
+        universities.add(new University("Nevada", "Carrington College-Reno", 56400, 56400));
+        universities.add(new University("Nevada", "Chamberlain University-Nevada", 19980, 19980));
+        universities.add(new University("Nevada", "DeVry University-Nevada", 15032, 15032));
+        universities.add(new University("Nevada", "European Massage Therapy School-Las Vegas", 9550, 9550));
+        universities.add(new University("Nevada", "L Makeup Institute", 22525, 22525));
+        universities.add(new University("Nevada", "Paul Mitchell the School-Las Vegas", 20655, 20655));
+        universities.add(new University("Nevada", "Paul Mitchell the School-Reno", 17978, 17978));
+        universities.add(new University("Nevada", "Las Vegas College", 15493, 15493));
+        universities.add(new University("Nevada", "Milan Institute-Las Vegas", 11566, 11566));
+        universities.add(new University("Nevada", "Milan Institute-Sparks", 15001, 15001));
+        universities.add(new University("Nevada", "Nevada Career Institute", 15945, 15945));
+        universities.add(new University("Nevada", "Northwest Career College", 15499, 15499));
     }
 }
 
