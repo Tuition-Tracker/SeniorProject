@@ -799,6 +799,33 @@ public class UniversityData {
         universities.add(new University("Maryland", "Stevenson University", 38738, 38738));
         universities.add(new University("Maryland", "Washington Adventist University", 25200, 25200));
         universities.add(new University("Maryland", "Washington College", 51991, 51991));
+        universities.add(new University("Michigan", "Adrian College", 39596, 39596));
+        universities.add(new University("Michigan", "Albion College", 54930, 54930));
+        universities.add(new University("Michigan", "Alma College", 45616, 45616));
+        universities.add(new University("Michigan", "Alpena Community College", 7995, 7995));
+        universities.add(new University("Michigan", "Andrews University", 32734, 32734));
+        universities.add(new University("Michigan", "Aquinas College", 37280, 37280));
+        universities.add(new University("Michigan", "Baker College", 12710, 12710));
+        universities.add(new University("Michigan", "Bay de Noc Community College", 9455, 11160));
+        universities.add(new University("Michigan", "Calvin University", 38620, 38620));
+        universities.add(new University("Michigan", "Central Michigan University", 13703, 13703));
+        universities.add(new University("Michigan", "Concordia University Ann Arbor", 32982, 32982));
+        universities.add(new University("Michigan", "Davenport University", 22242, 22242));
+        universities.add(new University("Michigan", "Eastern Michigan University", 16410, 16410));
+        universities.add(new University("Michigan", "Ferris State University", 13608, 13608));
+        universities.add(new University("Michigan", "Kalamazoo College", 56412, 56412));
+        universities.add(new University("Michigan", "Lake Superior State University", 13728, 13728));
+        universities.add(new University("Michigan", "Lawrence Technological University", 39570, 39570));
+        universities.add(new University("Michigan", "Michigan State University", 16617, 42607));
+        universities.add(new University("Michigan", "Michigan Technological University", 18910, 41247));
+        universities.add(new University("Michigan", "Northern Michigan University", 12948, 18570));
+        universities.add(new University("Michigan", "Oakland University", 15723, 24735));
+        universities.add(new University("Michigan", "University of Detroit Mercy", 31058, 31058));
+        universities.add(new University("Michigan", "University of Michigan-Ann Arbor", 17786, 57273));
+        universities.add(new University("Michigan", "University of Michigan-Dearborn", 14320, 29584));
+        universities.add(new University("Michigan", "University of Michigan-Flint", 12858, 25074));
+        universities.add(new University("Michigan", "Wayne State University", 15882, 34199));
+        universities.add(new University("Michigan", "Western Michigan University", 14623, 18254));
     }
 }
 
