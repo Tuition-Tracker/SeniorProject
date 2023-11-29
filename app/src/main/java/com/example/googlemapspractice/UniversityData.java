@@ -929,6 +929,35 @@ public class UniversityData {
         universities.add(new University("Montana", "Stone Child College", 2645, 2645));
         universities.add(new University("Montana", "The University of Montana - Missoula College", 4184, 16366));
         universities.add(new University("Montana", "Montana Bible College", 10090, 10090));
+        universities.add(new University("Nebraska", "Bellevue University", 8790, 8790));
+        universities.add(new University("Nebraska", "Bryan College of Health Sciences", 17870, 17870));
+        universities.add(new University("Nebraska", "Central Community College", 3300, 4710));
+        universities.add(new University("Nebraska", "Chadron State College", 7354, 7354));
+        universities.add(new University("Nebraska", "Clarkson College", 14880, 14880));
+        universities.add(new University("Nebraska", "College of Saint Mary", 22450, 22450));
+        universities.add(new University("Nebraska", "Concordia University-Nebraska", 37720, 37720));
+        universities.add(new University("Nebraska", "Creighton University", 45638, 45638));
+        universities.add(new University("Nebraska", "Doane University", 38990, 38990));
+        universities.add(new University("Nebraska", "Hastings College", 34580, 34580));
+        universities.add(new University("Nebraska", "Little Priest Tribal College", 5140, 5140));
+        universities.add(new University("Nebraska", "Metropolitan Community College Area", 3285, 4815));
+        universities.add(new University("Nebraska", "Mid-Plains Community College", 3480, 4380));
+        universities.add(new University("Nebraska", "Midland University", 38300, 38300));
+        universities.add(new University("Nebraska", "Nebraska Indian Community College", 4080, 4080));
+        universities.add(new University("Nebraska", "Nebraska Methodist College of Nursing & Allied Health", 16147, 16147));
+        universities.add(new University("Nebraska", "Nebraska Wesleyan University", 39868, 39868));
+        universities.add(new University("Nebraska", "Northeast Community College", 3840, 5130));
+        universities.add(new University("Nebraska", "Peru State College", 7920, 7920));
+        universities.add(new University("Nebraska", "Southeast Community College Area", 3276, 3864));
+        universities.add(new University("Nebraska", "Summit Christian College", 7608, 7608));
+        universities.add(new University("Nebraska", "Union College", 27170, 27170));
+        universities.add(new University("Nebraska", "University of Nebraska at Kearney", 7960, 15340));
+        universities.add(new University("Nebraska", "University of Nebraska at Omaha", 8136, 21718));
+        universities.add(new University("Nebraska", "University of Nebraska Medical Center", 14720, 33890));
+        universities.add(new University("Nebraska", "University of Nebraska-Lincoln", 9620, 26750));
+        universities.add(new University("Nebraska", "Wayne State College", 7688, 7688));
+        universities.add(new University("Nebraska", "Western Nebraska Community College", 2976, 3072));
+        universities.add(new University("Nebraska", "York University", 20950, 20950));
     }
 }
 
