@@ -906,6 +906,29 @@ public class UniversityData {
         universities.add(new University("Missouri", "Missouri Valley College", 22450, 22450));
         universities.add(new University("Missouri", "Stephens College", 25586, 25586));
         universities.add(new University("Missouri", "William Woods University", 27480, 27480));
+        universities.add(new University("Montana", "Montana State University", 7727, 29604));
+        universities.add(new University("Montana", "Montana State University Billings", 6198, 19924));
+        universities.add(new University("Montana", "Montana State University-Northern", 5955, 18665));
+        universities.add(new University("Montana", "University of Montana", 7719, 29634));
+        universities.add(new University("Montana", "Montana Technological University", 7527, 23142));
+        universities.add(new University("Montana", "University of Montana Western", 5874, 17698));
+        universities.add(new University("Montana", "Carroll College", 39028, 39028));
+        universities.add(new University("Montana", "University of Providence", 27606, 27606));
+        universities.add(new University("Montana", "Rocky Mountain College", 32252, 32252));
+        universities.add(new University("Montana", "Dawson Community College", 6075, 8775));
+        universities.add(new University("Montana", "Flathead Valley Community College", 6798, 12720));
+        universities.add(new University("Montana", "Miles Community College", 6240, 10110));
+        universities.add(new University("Montana", "Salish Kootenai College", 6399, 11583));
+        universities.add(new University("Montana", "Helena College University of Montana", 3590, 9863));
+        universities.add(new University("Montana", "Highlands College of Montana Tech", 3667, 9642));
+        universities.add(new University("Montana", "Aaniiih Nakoda College", 2410, 2410));
+        universities.add(new University("Montana", "Blackfeet Community College", 3610, 3610));
+        universities.add(new University("Montana", "Chief Dull Knife College", 2260, 2260));
+        universities.add(new University("Montana", "Great Falls College Montana State University", 3532, 11338));
+        universities.add(new University("Montana", "Little Big Horn College", 3200, 3200));
+        universities.add(new University("Montana", "Stone Child College", 2645, 2645));
+        universities.add(new University("Montana", "The University of Montana - Missoula College", 4184, 16366));
+        universities.add(new University("Montana", "Montana Bible College", 10090, 10090));
     }
 }
 
