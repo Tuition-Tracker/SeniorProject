@@ -826,6 +826,30 @@ public class UniversityData {
         universities.add(new University("Michigan", "University of Michigan-Flint", 12858, 25074));
         universities.add(new University("Michigan", "Wayne State University", 15882, 34199));
         universities.add(new University("Michigan", "Western Michigan University", 14623, 18254));
+        universities.add(new University("Minnesota", "Academy College", 17997, 17997));
+        universities.add(new University("Minnesota", "Augsburg University", 42064, 42064));
+        universities.add(new University("Minnesota", "Bethany Lutheran College", 29010, 29010));
+        universities.add(new University("Minnesota", "Bethel University", 41270, 41270));
+        universities.add(new University("Minnesota", "Carleton College", 62634, 62634));
+        universities.add(new University("Minnesota", "Concordia College at Moorhead", 28916, 28916));
+        universities.add(new University("Minnesota", "Concordia University-Saint Paul", 24400, 24400));
+        universities.add(new University("Minnesota", "Hamline University", 46616, 46616));
+        universities.add(new University("Minnesota", "Macalester College", 62500, 62500));
+        universities.add(new University("Minnesota", "Minnesota State University Moorhead", 10236, 19072));
+        universities.add(new University("Minnesota", "Minnesota State University-Mankato", 9444, 18814));
+        universities.add(new University("Minnesota", "Saint Cloud State University", 10117, 20001));
+        universities.add(new University("Minnesota", "Saint John's University", 52164, 52164));
+        universities.add(new University("Minnesota", "Saint Mary's University of Minnesota", 41150, 41150));
+        universities.add(new University("Minnesota", "St Catherine University", 37494, 37494));
+        universities.add(new University("Minnesota", "St Olaf College", 54650, 54650));
+        universities.add(new University("Minnesota", "University of Minnesota-Crookston", 13010, 13010));
+        universities.add(new University("Minnesota", "University of Minnesota-Duluth", 14126, 19516));
+        universities.add(new University("Minnesota", "University of Minnesota-Morris", 14120, 16250));
+        universities.add(new University("Minnesota", "University of Minnesota-Rochester", 13464, 13464));
+        universities.add(new University("Minnesota", "University of Minnesota-Twin Cities", 15859, 35099));
+        universities.add(new University("Minnesota", "University of Northwestern-St Paul", 35340, 35340));
+        universities.add(new University("Minnesota", "University of St Thomas", 50366, 50366));
+        universities.add(new University("Minnesota", "Winona State University", 10492, 17224));
     }
 }
 
