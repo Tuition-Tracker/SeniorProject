@@ -881,6 +881,31 @@ public class UniversityData {
         universities.add(new University("Mississippi", "University of Mississippi", 9220, 26440));
         universities.add(new University("Mississippi", "University of Southern Mississippi", 9450, 11450));
         universities.add(new University("Mississippi", "William Carey University", 14685, 14685));
+        universities.add(new University("Missouri", "Crowder College", 5616, 5616));
+        universities.add(new University("Missouri", "East Central College", 4584, 6360));
+        universities.add(new University("Missouri", "University of Missouri-Columbia", 11981, 31970));
+        universities.add(new University("Missouri", "Missouri State University-Springfield", 8604, 17144));
+        universities.add(new University("Missouri", "Washington University in St Louis", 60590, 60590));
+        universities.add(new University("Missouri", "Saint Louis University", 50644, 50644));
+        universities.add(new University("Missouri", "Truman State University", 9014, 17036));
+        universities.add(new University("Missouri", "Lindenwood University", 19300, 19300));
+        universities.add(new University("Missouri", "Northwest Missouri State University", 9502, 15569));
+        universities.add(new University("Missouri", "Southeast Missouri State University", 9015, 15585));
+        universities.add(new University("Missouri", "Webster University", 29840, 29840));
+        universities.add(new University("Missouri", "Missouri Western State University", 8241, 16161));
+        universities.add(new University("Missouri", "Central Methodist University-College of Liberal Arts and Sciences", 27140, 27140));
+        universities.add(new University("Missouri", "Drury University", 33633, 33633));
+        universities.add(new University("Missouri", "Missouri Southern State University", 8026, 16052));
+        universities.add(new University("Missouri", "Avila University", 22390, 22390));
+        universities.add(new University("Missouri", "Culver-Stockton College", 29195, 29195));
+        universities.add(new University("Missouri", "Harris-Stowe State University", 6058, 10690));
+        universities.add(new University("Missouri", "Lincoln University", 8386, 15616));
+        universities.add(new University("Missouri", "Park University", 9702, 9702));
+        universities.add(new University("Missouri", "William Jewell College", 19610, 19610));
+        universities.add(new University("Missouri", "Maryville University of Saint Louis", 27166, 27166));
+        universities.add(new University("Missouri", "Missouri Valley College", 22450, 22450));
+        universities.add(new University("Missouri", "Stephens College", 25586, 25586));
+        universities.add(new University("Missouri", "William Woods University", 27480, 27480));
     }
 }
 
