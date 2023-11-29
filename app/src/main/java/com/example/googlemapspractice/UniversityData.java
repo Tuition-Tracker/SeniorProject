@@ -772,6 +772,33 @@ public class UniversityData {
         universities.add(new University("Maine", "University of Southern Maine", 10100, 24716));
         universities.add(new University("Maine", "Washington County Community College", 3687, 6567));
         universities.add(new University("Maine", "York County Community College", 3760, 6640));
+        universities.add(new University("Maryland", "Bowie State University", 8753, 19545));
+        universities.add(new University("Maryland", "Coppin State University", 6904, 13560));
+        universities.add(new University("Maryland", "Frostburg State University", 9804, 24684));
+        universities.add(new University("Maryland", "Morgan State University", 8008, 18480));
+        universities.add(new University("Maryland", "Salisbury University", 10396, 20872));
+        universities.add(new University("Maryland", "St. Mary’s College of Maryland", 15184, 31260));
+        universities.add(new University("Maryland", "Towson University", 10818, 26820));
+        universities.add(new University("Maryland", "United States Naval Academy", 0, 0)); // Tuition fully funded
+        universities.add(new University("Maryland", "University of Baltimore", 9506, 22956));
+        universities.add(new University("Maryland", "University of Maryland, Baltimore", 12692, 42654));
+        universities.add(new University("Maryland", "University of Maryland, Baltimore County", 12606, 29370));
+        universities.add(new University("Maryland", "University of Maryland, College Park", 11233, 39469));
+        universities.add(new University("Maryland", "University of Maryland Eastern Shore", 8898, 19728));
+        universities.add(new University("Maryland", "University of Maryland Global Campus", 7848, 12336));
+        universities.add(new University("Maryland", "Capitol Technology University", 27004, 27004));
+        universities.add(new University("Maryland", "Goucher College", 49220, 49220));
+        universities.add(new University("Maryland", "Hood College", 44500, 44500));
+        universities.add(new University("Maryland", "Johns Hopkins University", 60480, 60480));
+        universities.add(new University("Maryland", "Loyola University Maryland", 53430, 53430));
+        universities.add(new University("Maryland", "Maryland Institute College of Art", 53815, 53815));
+        universities.add(new University("Maryland", "McDaniel College", 46800, 46800));
+        universities.add(new University("Maryland", "Mount St. Mary's University", 45870, 45870));
+        universities.add(new University("Maryland", "Notre Dame of Maryland University", 40730, 40730));
+        universities.add(new University("Maryland", "St. John's College", 37260, 37260));
+        universities.add(new University("Maryland", "Stevenson University", 38738, 38738));
+        universities.add(new University("Maryland", "Washington Adventist University", 25200, 25200));
+        universities.add(new University("Maryland", "Washington College", 51991, 51991));
     }
 }
 
