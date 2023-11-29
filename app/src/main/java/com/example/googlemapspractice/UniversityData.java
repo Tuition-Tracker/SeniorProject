@@ -982,6 +982,28 @@ public class UniversityData {
         universities.add(new University("Nevada", "Milan Institute-Sparks", 15001, 15001));
         universities.add(new University("Nevada", "Nevada Career Institute", 15945, 15945));
         universities.add(new University("Nevada", "Northwest Career College", 15499, 15499));
+        universities.add(new University("New Hampshire", "Great Bay Community College", 7200, 15450));
+        universities.add(new University("New Hampshire", "Lakes Region Community College", 6720, 14970));
+        universities.add(new University("New Hampshire", "Manchester Community College", 7090, 15340));
+        universities.add(new University("New Hampshire", "Nashua Community College", 7140, 15390));
+        universities.add(new University("New Hampshire", "NHTI, Concord's Community College", 7200, 15450));
+        universities.add(new University("New Hampshire", "River Valley Community College", 6940, 15190));
+        universities.add(new University("New Hampshire", "White Mountains Community College", 7050, 15300));
+        universities.add(new University("New Hampshire", "Granite State College", 7806, 9150));
+        universities.add(new University("New Hampshire", "Keene State College", 14638, 25547));
+        universities.add(new University("New Hampshire", "Plymouth State University", 14492, 24872));
+        universities.add(new University("New Hampshire", "University of New Hampshire", 19024, 37934));
+        universities.add(new University("New Hampshire", "University of New Hampshire at Manchester", 15804, 34664));
+        universities.add(new University("New Hampshire", "University of New Hampshire School of Law", 40314, 47314));
+        universities.add(new University("New Hampshire", "Colby-Sawyer College", 47164, 47164));
+        universities.add(new University("New Hampshire", "Dartmouth College", 62430, 62430));
+        universities.add(new University("New Hampshire", "Franklin Pierce University", 43155, 43155));
+        universities.add(new University("New Hampshire", "Magdalen College", 24000, 24000));
+        universities.add(new University("New Hampshire", "New England College", 27054, 27054));
+        universities.add(new University("New Hampshire", "Rivier University", 36610, 36610));
+        universities.add(new University("New Hampshire", "Saint Anselm College", 45340, 45340));
+        universities.add(new University("New Hampshire", "Southern New Hampshire University", 15380, 15380));
+        universities.add(new University("New Hampshire", "Thomas More College of Liberal Arts", 28000, 28000));
     }
 }
 
