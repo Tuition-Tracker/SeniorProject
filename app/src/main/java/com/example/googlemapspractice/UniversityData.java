@@ -1004,6 +1004,29 @@ public class UniversityData {
         universities.add(new University("New Hampshire", "Saint Anselm College", 45340, 45340));
         universities.add(new University("New Hampshire", "Southern New Hampshire University", 15380, 15380));
         universities.add(new University("New Hampshire", "Thomas More College of Liberal Arts", 28000, 28000));
+        universities.add(new University("New Jersey", "Kean University", 12972, 20364));
+        universities.add(new University("New Jersey", "Montclair State University", 13762, 22472));
+        universities.add(new University("New Jersey", "New Jersey City University", 13564, 24163));
+        universities.add(new University("New Jersey", "New Jersey Institute of Technology", 18512, 34972));
+        universities.add(new University("New Jersey", "Ramapo College of New Jersey", 15363, 25373));
+        universities.add(new University("New Jersey", "Rowan University", 14952, 24345));
+        universities.add(new University("New Jersey", "Rutgers University - New Brunswick", 16263, 33963));
+        universities.add(new University("New Jersey", "Rutgers University - Camden", 16112, 33812));
+        universities.add(new University("New Jersey", "Rutgers University - Newark", 15648, 33348));
+        universities.add(new University("New Jersey", "Stockton University", 15188, 22922));
+        universities.add(new University("New Jersey", "The College of New Jersey", 17978, 30772));
+        universities.add(new University("New Jersey", "Thomas Edison State University", 7372, 9556));
+        universities.add(new University("New Jersey", "William Paterson University of New Jersey", 14624, 23624));
+        universities.add(new University("New Jersey", "Bloomfield College", 30680, 30680));
+        universities.add(new University("New Jersey", "Caldwell University", 38050, 38050));
+        universities.add(new University("New Jersey", "Drew University", 44174, 44174));
+        universities.add(new University("New Jersey", "Fairleigh Dickinson University - Florham Campus", 39951, 39951));
+        universities.add(new University("New Jersey", "Fairleigh Dickinson University - Metropolitan Campus", 37563, 37563));
+        universities.add(new University("New Jersey", "Felician University", 36410, 36410));
+        universities.add(new University("New Jersey", "Georgian Court University", 35516, 35516));
+        universities.add(new University("New Jersey", "Monmouth University", 43216, 43216));
+        universities.add(new University("New Jersey", "Saint Peter's University", 39890, 39890));
+        universities.add(new University("New Jersey", "Stevens Institute of Technology", 58624, 58624));
     }
 }
 
