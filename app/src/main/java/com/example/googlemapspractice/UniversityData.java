@@ -745,6 +745,33 @@ public class UniversityData {
         universities.add(new University("Louisiana", "University of Louisiana at Monroe", 9082, 21182));
         universities.add(new University("Louisiana", "University of New Orleans", 9172, 14008));
         universities.add(new University("Louisiana", "Xavier University of Louisiana", 26863, 26863));
+        universities.add(new University("Maine", "Bates College", 61066, 61066));
+        universities.add(new University("Maine", "Beal University", 39570, 39570));
+        universities.add(new University("Maine", "Bowdoin College", 61528, 61528));
+        universities.add(new University("Maine", "Central Maine Community College", 3760, 6640));
+        universities.add(new University("Maine", "Colby College", 63520, 63520));
+        universities.add(new University("Maine", "College of the Atlantic", 44829, 44829));
+        universities.add(new University("Maine", "Eastern Maine Community College", 3877, 6757));
+        universities.add(new University("Maine", "Husson University", 21090, 21090));
+        universities.add(new University("Maine", "Kennebec Valley Community College", 3687, 6567));
+        universities.add(new University("Maine", "Maine College of Art & Design", 39830, 39830));
+        universities.add(new University("Maine", "Maine College of Health Professions", 16238, 16238));
+        universities.add(new University("Maine", "Maine Maritime Academy", 14562, 30043));
+        universities.add(new University("Maine", "Northern Maine Community College", 3730, 6610));
+        universities.add(new University("Maine", "Saint Joseph's College of Maine", 41586, 41586));
+        universities.add(new University("Maine", "Southern Maine Community College", 3797, 6677));
+        universities.add(new University("Maine", "Thomas College", 29996, 29996));
+        universities.add(new University("Maine", "Unity College", 12640, 12640));
+        universities.add(new University("Maine", "University of Maine", 12136, 33736));
+        universities.add(new University("Maine", "University of Maine at Augusta", 8378, 19778));
+        universities.add(new University("Maine", "University of Maine at Farmington", 9890, 21650));
+        universities.add(new University("Maine", "University of Maine at Fort Kent", 8542, 13312));
+        universities.add(new University("Maine", "University of Maine at Machias", 8910, 16650));
+        universities.add(new University("Maine", "University of Maine at Presque Isle", 8750, 13520));
+        universities.add(new University("Maine", "University of New England", 40950, 40950));
+        universities.add(new University("Maine", "University of Southern Maine", 10100, 24716));
+        universities.add(new University("Maine", "Washington County Community College", 3687, 6567));
+        universities.add(new University("Maine", "York County Community College", 3760, 6640));
     }
 }
 
