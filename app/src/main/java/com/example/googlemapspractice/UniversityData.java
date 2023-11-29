@@ -850,6 +850,37 @@ public class UniversityData {
         universities.add(new University("Minnesota", "University of Northwestern-St Paul", 35340, 35340));
         universities.add(new University("Minnesota", "University of St Thomas", 50366, 50366));
         universities.add(new University("Minnesota", "Winona State University", 10492, 17224));
+        universities.add(new University("Mississippi", "Alcorn State University", 8549, 8549));
+        universities.add(new University("Mississippi", "Belhaven University", 28375, 28375));
+        universities.add(new University("Mississippi", "Blue Mountain Christian University", 19280, 19280));
+        universities.add(new University("Mississippi", "Coahoma Community College", 3353, 3353));
+        universities.add(new University("Mississippi", "Copiah-Lincoln Community College", 3600, 5600));
+        universities.add(new University("Mississippi", "Delta State University", 8605, 8605));
+        universities.add(new University("Mississippi", "East Central Community College", 3565, 5665));
+        universities.add(new University("Mississippi", "East Mississippi Community College", 3740, 6740));
+        universities.add(new University("Mississippi", "Hinds Community College", 3750, 6800));
+        universities.add(new University("Mississippi", "Holmes Community College", 3510, 6210));
+        universities.add(new University("Mississippi", "Itawamba Community College", 3160, 5360));
+        universities.add(new University("Mississippi", "Jackson State University", 8445, 9445));
+        universities.add(new University("Mississippi", "Jones County Junior College", 3970, 5970));
+        universities.add(new University("Mississippi", "Meridian Community College", 3811, 5811));
+        universities.add(new University("Mississippi", "Millsaps College", 43760, 43760));
+        universities.add(new University("Mississippi", "Mississippi College", 21098, 21098));
+        universities.add(new University("Mississippi", "Mississippi Delta Community College", 3380, 5980));
+        universities.add(new University("Mississippi", "Mississippi Gulf Coast Community College", 3950, 7250));
+        universities.add(new University("Mississippi", "Mississippi State University", 9398, 25444));
+        universities.add(new University("Mississippi", "Mississippi University for Women", 7866, 7866));
+        universities.add(new University("Mississippi", "Mississippi Valley State University", 7414, 7414));
+        universities.add(new University("Mississippi", "Northeast Mississippi Community College", 4770, 8050));
+        universities.add(new University("Mississippi", "Northwest Mississippi Community College", 3460, 5860));
+        universities.add(new University("Mississippi", "Pearl River Community College", 3500, 5500));
+        universities.add(new University("Mississippi", "Rust College", 9900, 9900));
+        universities.add(new University("Mississippi", "Southeastern Baptist College", 6275, 6275));
+        universities.add(new University("Mississippi", "Southwest Mississippi Community College", 3600, 6300));
+        universities.add(new University("Mississippi", "Tougaloo College", 10735, 10735));
+        universities.add(new University("Mississippi", "University of Mississippi", 9220, 26440));
+        universities.add(new University("Mississippi", "University of Southern Mississippi", 9450, 11450));
+        universities.add(new University("Mississippi", "William Carey University", 14685, 14685));
     }
 }
 
