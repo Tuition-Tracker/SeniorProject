@@ -1027,6 +1027,17 @@ public class UniversityData {
         universities.add(new University("New Jersey", "Monmouth University", 43216, 43216));
         universities.add(new University("New Jersey", "Saint Peter's University", 39890, 39890));
         universities.add(new University("New Jersey", "Stevens Institute of Technology", 58624, 58624));
+        universities.add(new University("New Mexico", "Eastern New Mexico University-Main Campus", 6863, 8843));
+        universities.add(new University("New Mexico", "Institute of American Indian and Alaska Native Culture and Arts Development", 5561, 5561));
+        universities.add(new University("New Mexico", "Navajo Technical University", 3278, 3278));
+        universities.add(new University("New Mexico", "New Mexico Highlands University", 7140, 11988));
+        universities.add(new University("New Mexico", "New Mexico Institute of Mining and Technology", 9058, 26312));
+        universities.add(new University("New Mexico", "New Mexico State University-Main Campus", 7627, 24751));
+        universities.add(new University("New Mexico", "Northern New Mexico College", 5064, 14329));
+        universities.add(new University("New Mexico", "St. John's College", 37090, 37090));
+        universities.add(new University("New Mexico", "University of New Mexico-Main Campus", 8076, 26411));
+        universities.add(new University("New Mexico", "University of the Southwest", 17200, 17200));
+        universities.add(new University("New Mexico", "Western New Mexico University", 7657, 14287));
     }
 }
 
