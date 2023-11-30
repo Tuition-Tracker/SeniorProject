@@ -1038,6 +1038,22 @@ public class UniversityData {
         universities.add(new University("New Mexico", "University of New Mexico-Main Campus", 8076, 26411));
         universities.add(new University("New Mexico", "University of the Southwest", 17200, 17200));
         universities.add(new University("New Mexico", "Western New Mexico University", 7657, 14287));
+        //New York
+        //North Carolina
+        universities.add(new University("North Dakota", "Bismarck State College", 5143, 7227));
+        universities.add(new University("North Dakota", "Dickinson State University", 9118, 11218));
+        universities.add(new University("North Dakota", "Mayville State University", 7873, 11131));
+        universities.add(new University("North Dakota", "Minot State University", 8508, 8508));
+        universities.add(new University("North Dakota", "North Dakota State University-Main Campus", 10992, 15646));
+        universities.add(new University("North Dakota", "Nueta Hidatsa Sahnish College", 3870, 3870));
+        universities.add(new University("North Dakota", "Sitting Bull College", 4010, 4010));
+        universities.add(new University("North Dakota", "Trinity Bible College and Graduate School", 18216, 18216));
+        universities.add(new University("North Dakota", "Turtle Mountain Community College", 2482, 2482));
+        universities.add(new University("North Dakota", "United Tribes Technical College", 4252, 4252));
+        universities.add(new University("North Dakota", "University of Jamestown", 24200, 24200));
+        universities.add(new University("North Dakota", "University of Mary", 21062, 21062));
+        universities.add(new University("North Dakota", "University of North Dakota", 10951, 15570));
+        universities.add(new University("North Dakota", "Valley City State University", 8458, 13422));
     }
 }
 
