@@ -1100,6 +1100,18 @@ public class UniversityData {
         universities.add(new University("Utah", "Weber State University", 6391, 17084));
         universities.add(new University("Utah", "Western Governors University", 8010, 8010));
         universities.add(new University("Utah", "Westminster College", 40352, 40352));
+        universities.add(new University("Vermont", "Bennington College", 61448, 61448));
+        universities.add(new University("Vermont", "Castleton University", 13078, 30046));
+        universities.add(new University("Vermont", "Champlain College", 44220, 44220));
+        universities.add(new University("Vermont", "Goddard College", 18477, 18477));
+        universities.add(new University("Vermont", "Landmark College", 62720, 62720));
+        universities.add(new University("Vermont", "Middlebury College", 62460, 62460));
+        universities.add(new University("Vermont", "Northern Vermont University", 12804, 26892));
+        universities.add(new University("Vermont", "Norwich University", 45340, 45340));
+        universities.add(new University("Vermont", "Saint Michael's College", 49840, 49840));
+        universities.add(new University("Vermont", "Sterling College", 39200, 39200));
+        universities.add(new University("Vermont", "University of Vermont", 18890, 43890));
+        universities.add(new University("Vermont", "Vermont Technical College", 16086, 29502));
     }
 }
 
