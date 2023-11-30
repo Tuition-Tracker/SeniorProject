@@ -1112,6 +1112,15 @@ public class UniversityData {
         universities.add(new University("Vermont", "Sterling College", 39200, 39200));
         universities.add(new University("Vermont", "University of Vermont", 18890, 43890));
         universities.add(new University("Vermont", "Vermont Technical College", 16086, 29502));
+        //Virginia
+        //Washington
+        //West Virginia
+        //Wisconsin
+        universities.add(new University("Wyoming", "Central Wyoming College", 4680, 10980));
+        universities.add(new University("Wyoming", "Laramie County Community College", 4613, 10913));
+        universities.add(new University("Wyoming", "Northwest College", 4862, 11162));
+        universities.add(new University("Wyoming", "University of Wyoming", 6621, 21771));
+        universities.add(new University("Wyoming", "Western Wyoming Community College", 3600, 8640));
     }
 }
 
