@@ -1070,6 +1070,36 @@ public class UniversityData {
         universities.add(new University("Rhode Island", "Roger Williams University", 40962, 40962));
         universities.add(new University("Rhode Island", "Salve Regina University", 46000, 46000));
         universities.add(new University("Rhode Island", "University of Rhode Island", 15880, 34362));
+        //South Carolina
+        universities.add(new University("South Dakota", "Augustana University", 37342, 37342));
+        universities.add(new University("South Dakota", "Black Hills State University", 9000, 12100));
+        universities.add(new University("South Dakota", "Dakota State University", 9633, 12735));
+        universities.add(new University("South Dakota", "Dakota Wesleyan University", 31890, 31890));
+        universities.add(new University("South Dakota", "Institute of Lutheran Theology", 10160, 10160));
+        universities.add(new University("South Dakota", "Kairos University", 3600, 3600));
+        universities.add(new University("South Dakota", "Mount Marty University", 31500, 31500));
+        universities.add(new University("South Dakota", "Northern State University", 8845, 11947));
+        universities.add(new University("South Dakota", "Oglala Lakota College", 2684, 2684));
+        universities.add(new University("South Dakota", "Presentation College", 22764, 22764));
+        universities.add(new University("South Dakota", "Sinte Gleska University", 4714, 4714));
+        universities.add(new University("South Dakota", "South Dakota School of Mines and Technology", 10440, 14860));
+        universities.add(new University("South Dakota", "South Dakota State University", 9299, 12809));
+        universities.add(new University("South Dakota", "University of Sioux Falls", 20290, 20290));
+        universities.add(new University("South Dakota", "University of South Dakota", 9432, 12942));
+        //Tennessee
+        //Texas
+        universities.add(new University("Utah", "Brigham Young University", 6304, 6304));
+        universities.add(new University("Utah", "Ensign College", 3766, 3766));
+        universities.add(new University("Utah", "Midwives College of Utah", 7919, 7919));
+        universities.add(new University("Utah", "Snow College", 4180, 14130));
+        universities.add(new University("Utah", "Southern Utah University", 6770, 20586));
+        universities.add(new University("Utah", "University of Utah", 9315, 29837));
+        universities.add(new University("Utah", "Utah State University", 9228, 24802));
+        universities.add(new University("Utah", "Utah Tech University", 6096, 17666));
+        universities.add(new University("Utah", "Utah Valley University", 6270, 17830));
+        universities.add(new University("Utah", "Weber State University", 6391, 17084));
+        universities.add(new University("Utah", "Western Governors University", 8010, 8010));
+        universities.add(new University("Utah", "Westminster College", 40352, 40352));
     }
 }
 
