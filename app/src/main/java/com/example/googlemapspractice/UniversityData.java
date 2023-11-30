@@ -1054,6 +1054,22 @@ public class UniversityData {
         universities.add(new University("North Dakota", "University of Mary", 21062, 21062));
         universities.add(new University("North Dakota", "University of North Dakota", 10951, 15570));
         universities.add(new University("North Dakota", "Valley City State University", 8458, 13422));
+        //Ohio
+        //Oklahoma
+        //Oregon
+        //Pennsylvania
+        universities.add(new University("Rhode Island", "Brown University", 65146, 65146));
+        universities.add(new University("Rhode Island", "Bryant University", 49329, 49329));
+        universities.add(new University("Rhode Island", "College Unbound", 9984, 9984));
+        universities.add(new University("Rhode Island", "Johnson & Wales University - Online", 13365, 13365));
+        universities.add(new University("Rhode Island", "Johnson & Wales University - Providence", 38492, 38492));
+        universities.add(new University("Rhode Island", "New England Institute of Technology", 33900, 33900));
+        universities.add(new University("Rhode Island", "Providence College", 57928, 57928));
+        universities.add(new University("Rhode Island", "Rhode Island College", 10966, 26499));
+        universities.add(new University("Rhode Island", "Rhode Island School of Design", 57505, 57505));
+        universities.add(new University("Rhode Island", "Roger Williams University", 40962, 40962));
+        universities.add(new University("Rhode Island", "Salve Regina University", 46000, 46000));
+        universities.add(new University("Rhode Island", "University of Rhode Island", 15880, 34362));
     }
 }
 
