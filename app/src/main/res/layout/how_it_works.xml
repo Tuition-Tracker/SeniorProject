@@ -27,24 +27,24 @@
             android:layout_width="355dp"
             android:layout_height="400dp"
             android:layout_gravity="center"
-            android:layout_marginTop="-200dp"
+            android:layout_marginTop="-210dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Tuition Tracker makes it easy to compare schools across different states in the US. All you need is the school name, location, and whether you would receive in-state or out-of-state tuition costs."
+            android:text="Tuition Tracker makes it easy to make informed financial decisions before committing to a school. The 'Compare State Taxes' feature allows you to see how your income may be affected in a different state. Additionally, it will show you various Index factors such as Cist of Living, Groceries, Housing, and Health."
             android:textAlignment="textStart"
             android:textColor="#0c1618"
-            android:textSize="25dp" />
+            android:textSize="22dp" />
 
 
         <TextView
             android:layout_width="355dp"
             android:layout_height="400dp"
             android:layout_gravity="center"
-            android:layout_marginTop="-200dp"
+            android:layout_marginTop="-140dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="With this information, Tuition Tracker will show you how much expected tuition costs are in each state after accounting for state tax, income tax, cost of living, and other state-specific expenses."
+            android:text="The 'My Schools' feature allows you to compare multiple schools at the same time by providing you with the in-state or out-of-state tuition for every higher-education institution across the United States. You may view the schools either on a list or on a map."
             android:textAlignment="textStart"
             android:textColor="#0c1618"
-            android:textSize="25dp" />
+            android:textSize="22dp" />
 
 
         <Button
@@ -57,7 +57,7 @@
             android:fontFamily="sans-serif-condensed-medium"
             android:textColor="#0c1618"
             android:textSize="26dp"
-            android:layout_marginTop="-160dp"
+            android:layout_marginTop="-180dp"
             android:layout_marginBottom="20dp"/>
 
 
