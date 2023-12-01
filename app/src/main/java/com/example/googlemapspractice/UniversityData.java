@@ -1496,12 +1496,12 @@ public class UniversityData {
         universities.add(new University("North Carolina", "Methodist University", 38138, 38138));
         universities.add(new University("North Carolina", "Mid-Atlantic Christian University", 17040, 17040));
         universities.add(new University("North Carolina", "Miller-Motte College (Multiple Campuses in NC)", 25240, 25240));
-        universities.add(new University("North Carolina", "Mitchells Academy (Multiple Campuses in NC)", 13137.50, 13137.50));
+        universities.add(new University("North Carolina", "Mitchells Academy (Multiple Campuses in NC)", 13137, 13137));
         universities.add(new University("North Carolina", "Montreat College", 30525, 30525));
         universities.add(new University("North Carolina", "MyComputerCareer at Raleigh", 15771, 15771));
         universities.add(new University("North Carolina", "NASCAR Technical Institute", 39450, 39450));
         universities.add(new University("North Carolina", "North Carolina Wesleyan University", 34352, 34352));
-        universities.add(new University("North Carolina", "Paul Mitchell the School (Multiple Campuses in NC)", 17714.33, 17714.33));
+        universities.add(new University("North Carolina", "Paul Mitchell the School (Multiple Campuses in NC)", 17714, 17714));
         universities.add(new University("North Carolina", "Pfeiffer University", 33290, 33290));
         universities.add(new University("North Carolina", "Queens University of Charlotte", 40830, 40830));
         universities.add(new University("North Carolina", "Saint Augustine's University", 16896, 16896));
@@ -1613,7 +1613,42 @@ public class UniversityData {
         universities.add(new University("Ohio", "Ursuline College", 36816, 36816));
         universities.add(new University("Ohio", "Walsh University", 32210, 32210));
         universities.add(new University("Ohio", "Washington State Community College", 4128, 4152));
-        //Oklahoma
+        universities.add(new University("Oklahoma", "Cameron University", 6705, 16125));
+        universities.add(new University("Oklahoma", "East Central University", 7405, 16555));
+        universities.add(new University("Oklahoma", "Langston University", 6639, 14166));
+        universities.add(new University("Oklahoma", "Northeastern State University", 7400, 16385));
+        universities.add(new University("Oklahoma", "Northwestern Oklahoma State University", 5970, 11664));
+        universities.add(new University("Oklahoma", "Oklahoma Panhandle State University", 7634, 8385));
+        universities.add(new University("Oklahoma", "Oklahoma State University", 10110, 25630));
+        universities.add(new University("Oklahoma", "Rogers State University", 7252, 15036));
+        universities.add(new University("Oklahoma", "Southeastern Oklahoma State University", 6990, 15930));
+        universities.add(new University("Oklahoma", "Southwestern Oklahoma State University", 8130, 15240));
+        universities.add(new University("Oklahoma", "University of Central Oklahoma", 8234, 19121));
+        universities.add(new University("Oklahoma", "University of Oklahoma", 9312, 25880));
+        universities.add(new University("Oklahoma", "University of Science & Arts of Oklahoma", 9000, 20190));
+        universities.add(new University("Oklahoma", "Bacone College", 15060, 15060));
+        universities.add(new University("Oklahoma", "Mid-America Christian University", 18838, 18838));
+        universities.add(new University("Oklahoma", "Oklahoma Baptist University", 32880, 32880));
+        universities.add(new University("Oklahoma", "Oklahoma Christian University", 25148, 25148));
+        universities.add(new University("Oklahoma", "Oklahoma City University", 32744, 32744));
+        universities.add(new University("Oklahoma", "Oral Roberts University", 32640, 32640));
+        universities.add(new University("Oklahoma", "Randall University", 16684, 16684));
+        universities.add(new University("Oklahoma", "Southern Nazarene University", 28600, 28600));
+        universities.add(new University("Oklahoma", "Southwestern Christian University", 18804, 18804));
+        universities.add(new University("Oklahoma", "University of Tulsa", 46676, 46676));
+        universities.add(new University("Oklahoma", "College of the Muscogee Nation", 6600, 6600));
+        universities.add(new University("Oklahoma", "Carl Albert State College", 4230, 8707));
+        universities.add(new University("Oklahoma", "Connors State College", 3704, 7562));
+        universities.add(new University("Oklahoma", "Eastern Oklahoma State College", 4767, 8384));
+        universities.add(new University("Oklahoma", "Murray State College", 6630, 10830));
+        universities.add(new University("Oklahoma", "Northeastern Oklahoma A&M College", 4913, 11063));
+        universities.add(new University("Oklahoma", "Northern Oklahoma College", 4857, 11622));
+        universities.add(new University("Oklahoma", "Oklahoma City Community College", 4059, 9810));
+        universities.add(new University("Oklahoma", "Redlands Community College", 5385, 7951));
+        universities.add(new University("Oklahoma", "Rose State College", 5010, 11387));
+        universities.add(new University("Oklahoma", "Seminole State College", 5460, 11790));
+        universities.add(new University("Oklahoma", "Tulsa Community College", 3541, 8941));
+        universities.add(new University("Oklahoma", "Western Oklahoma State College", 5250, 9422));
         //Oregon
         //Pennsylvania
         universities.add(new University("Rhode Island", "Brown University", 65146, 65146));
