@@ -27,27 +27,15 @@ public class University {
     public String getName() {
         return name;
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    // Getter and setter for inStateTuition
     public int getInStateTuition() {
         return inStateTuition;
     }
-
-    public void setInStateTuition(int inStateTuition) {
-        this.inStateTuition = inStateTuition;
-    }
-
-    // Getter and setter for outOfStateTuition
     public int getOutOfStateTuition() {
         return outOfStateTuition;
     }
 
-    public void setOutOfStateTuition(int outOfStateTuition) {
-        this.outOfStateTuition = outOfStateTuition;
+    public void setName(String name) {
+        this.name = name;
     }
 }
 

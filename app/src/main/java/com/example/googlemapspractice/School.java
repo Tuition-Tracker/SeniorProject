@@ -13,16 +13,17 @@ public class School {
     private double netIncome;
     private int inStateTuition;
     private int outStateTuition;
+    private int tuition;
 
     private double lat;
     private double lon;
 
-    public School(String schoolName, String city, String state, int income, double lat, double lon)
+    public School(String schoolName, String city, String state, int tuition, double lat, double lon)
     {
         this.schoolName = schoolName;
         this.city = city;
         this.state = state;
-        this.annualIncome = income;
+        this.tuition = tuition;
         this.lat = lat;
         this.lon = lon;
 
@@ -90,6 +91,22 @@ public class School {
     public double getOutStateTuition() {
         return outStateTuition;
     }
+
+    public double getTuition() {
+        return tuition;
+    }
+
+
+    /*
+    public static double getTuition(String name, boolean isInState) {
+        if (isInState) {
+            return inStateTuition;
+        } else {
+            return outOfStateTuition;
+        }
+    }
+
+     */
 
     public double getLat(){
         return lat;

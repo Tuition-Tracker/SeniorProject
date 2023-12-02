@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="-140dp"
+        android:layout_marginTop="-160dp"
         android:text="School Name"
         android:fontFamily="sans-serif-black"
         android:textSize="20sp"
@@ -82,24 +82,31 @@
         android:textAlignment="center"
         android:textColor="#0c1618"/>
 
-    <EditText
-        android:id="@+id/incomeET"
+    <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:backgroundTint="#737373"
-        android:ems="10"
-        android:inputType="text"
-        android:textColor="#0c1618"
-        android:textColorHighlight="#737373"
-        android:textColorHint="#737373"
-        android:textColorLink="#737373"
-        android:textCursorDrawable="@color/black"
-        android:textSize="20sp" />
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="125dp"
+        android:id="@+id/tuitionRadioGroup">
+
+        <RadioButton
+            android:id="@+id/inStateRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In-State Tuition"/>
+
+        <RadioButton
+            android:id="@+id/outOfStateRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Out-of-State Tuition"/>
+    </RadioGroup>
+
 
 
     <Button
-        android:id="@+id/back"
+        android:id="@+id/save"
         android:layout_width="300dp"
         android:layout_height="73dp"
         android:layout_gravity="center"
@@ -109,7 +116,7 @@
         android:fontFamily="sans-serif-condensed-medium"
         android:textColor="#0c1618"
         android:textSize="26dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="35dp"
         android:layout_marginBottom="20dp"/>
 
 </LinearLayout>

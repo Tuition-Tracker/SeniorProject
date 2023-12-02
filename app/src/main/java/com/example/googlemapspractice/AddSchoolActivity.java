@@ -6,15 +6,20 @@ import android.location.Geocoder;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class AddSchoolActivity extends AppCompatActivity {
 
     private EditText schoolNameET, locationET, incomeET;
+    private RadioGroup tuitionRadioGroup;
+    private List<University> universities = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -28,30 +33,41 @@ public class AddSchoolActivity extends AppCompatActivity {
     {
         schoolNameET = findViewById(R.id.schoolNameET);
         locationET = findViewById(R.id.locationET);
-        incomeET = findViewById(R.id.incomeET);
+        tuitionRadioGroup = findViewById(R.id.tuitionRadioGroup);
     }
 
-    public void saveSchoolAction(View view) throws IOException {
-        String schoolName = schoolNameET.getText().toString();
-        String location = locationET.getText().toString();
-        int income = Integer.parseInt(incomeET.getText().toString());
-
-        Geocoder geocoder = new Geocoder(this);
-
-        List<Address> coords = geocoder.getFromLocationName(location, 1);
-        List<Address> addresses = null;
+    public void saveSchoolAction(View view) {
         try {
-            addresses = geocoder.getFromLocation(coords.get(0).getLatitude(), coords.get(0).getLongitude(), 1);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        String cityName = addresses.get(0).getLocality();
-        String state = addresses.get(0).getAdminArea();
+            String schoolName = schoolNameET.getText().toString();
+            String location = locationET.getText().toString();
+            int selectedTuitionId = tuitionRadioGroup.getCheckedRadioButtonId();
+            boolean isInStateTuition = (selectedTuitionId == R.id.inStateRadioButton);
 
-        School newSchool = new School(schoolName, cityName, state, income, coords.get(0).getLatitude(), coords.get(0).getLongitude());
-        School.schoolList.add(newSchool);
-        Intent myIntent = new Intent(getBaseContext(), ViewByListActivity.class);
-        startActivity(myIntent);
+            Geocoder geocoder = new Geocoder(this);
+            List<Address> coords = geocoder.getFromLocationName(location, 1);
+            List<Address> addresses = null;
+            try {
+                addresses = geocoder.getFromLocation(coords.get(0).getLatitude(), coords.get(0).getLongitude(), 1);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            String cityName = addresses.get(0).getLocality();
+            String state = addresses.get(0).getAdminArea();
+
+            UniversityData univData = new UniversityData();
+            // Use UniversityData to get the tuition based on school name and in-state/out-of-state
+            double tuition = univData.getTuition(schoolName, isInStateTuition);
+
+            School newSchool = new School(schoolName, cityName, state, (int)tuition, coords.get(0).getLatitude(), coords.get(0).getLongitude());
+            School.schoolList.add(newSchool);
+            Toast.makeText(AddSchoolActivity.this, "School added successfully", Toast.LENGTH_SHORT).show();
+
+            Intent myIntent = new Intent(getBaseContext(), ViewByListActivity.class);
+            startActivity(myIntent);
+        } catch (Exception e) {
+            Toast.makeText(this, "Error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+        }
     }
+
 
 }

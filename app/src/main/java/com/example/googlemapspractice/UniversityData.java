@@ -4,9 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UniversityData {
-    public static void main(String[] args) {
-        List<University> universities = new ArrayList<>();
+    static List<University> universities = new ArrayList<>();
 
+    public UniversityData(){
+        setupUniversities();
+    }
+
+    public void setupUniversities(){
         universities.add(new University("Alabama", "Alabama A & M University", 10024, 18634));
         universities.add(new University("Alabama", "Alabama State University", 11068, 19396));
         universities.add(new University("Alabama", "Amridge University", 9000, 9000));
@@ -1714,6 +1718,27 @@ public class UniversityData {
         universities.add(new University("Wyoming", "Northwest College", 4862, 11162));
         universities.add(new University("Wyoming", "University of Wyoming", 6621, 21771));
         universities.add(new University("Wyoming", "Western Wyoming Community College", 3600, 8640));
+    }
+
+    private String schoolName;
+    private String location;
+    private int inStateTuition;
+    private int outOfStateTuition;
+
+    // Constructor and other methods...
+
+    // Method to get tuition based on the type of tuition (in-state or out-of-state)
+    public static int getTuition(String name, boolean isInState) {
+        for (int i = 0; i < universities.size(); i++){
+            if (universities.get(i).getName().equals(name)){
+                if (isInState) {
+                    return universities.get(i).getInStateTuition();
+                } else {
+                    return universities.get(i).getOutOfStateTuition();
+                }
+            }
+        }
+        return 0;
     }
 }
 
