@@ -1819,7 +1819,34 @@ public class UniversityData {
         universities.add(new University("South Dakota", "South Dakota State University", 9299, 12809));
         universities.add(new University("South Dakota", "University of Sioux Falls", 20290, 20290));
         universities.add(new University("South Dakota", "University of South Dakota", 9432, 12942));
-        //Tennessee
+        universities.add(new University("Tennessee", "Austin Peay State University", 8431, 13975));
+        universities.add(new University("Tennessee", "East Tennessee State University", 9438, 12740));
+        universities.add(new University("Tennessee", "Middle Tennessee State University", 9232, 28264));
+        universities.add(new University("Tennessee", "Tennessee State University", 8336, 21692));
+        universities.add(new University("Tennessee", "Tennessee Technological University", 9802, 19834));
+        universities.add(new University("Tennessee", "The University of Tennessee-Chattanooga", 9848, 25966));
+        universities.add(new University("Tennessee", "The University of Tennessee-Knoxville", 13244, 31664));
+        universities.add(new University("Tennessee", "The University of Tennessee-Martin", 9912, 15952));
+        universities.add(new University("Tennessee", "American Baptist College", 12474, 12474));
+        universities.add(new University("Tennessee", "Belmont University", 39850, 39850));
+        universities.add(new University("Tennessee", "Bethel University", 16871, 16871));
+        universities.add(new University("Tennessee", "Bryan College-Dayton", 17900, 17900));
+        universities.add(new University("Tennessee", "Carson-Newman University", 33000, 33000));
+        universities.add(new University("Tennessee", "Christian Brothers University", 35520, 35520));
+        universities.add(new University("Tennessee", "Fisk University", 23578, 23578));
+        universities.add(new University("Tennessee", "Freed-Hardeman University", 24300, 24300));
+        universities.add(new University("Tennessee", "King University", 33784, 33784));
+        universities.add(new University("Tennessee", "Lee University", 21730, 21730));
+        universities.add(new University("Tennessee", "Lincoln Memorial University", 25180, 25180));
+        universities.add(new University("Tennessee", "Lipscomb University", 37152, 37152));
+        universities.add(new University("Tennessee", "Maryville College", 37758, 37758));
+        universities.add(new University("Tennessee", "Rhodes College", 52310, 52310));
+        universities.add(new University("Tennessee", "The University of the South", 51135, 51135));
+        universities.add(new University("Tennessee", "Trevecca Nazarene University", 28500, 28500));
+        universities.add(new University("Tennessee", "Tusculum University", 27208, 27208));
+        universities.add(new University("Tennessee", "Union University", 19363, 19363));
+        universities.add(new University("Tennessee", "University of Memphis", 10056, 14280));
+        universities.add(new University("Tennessee", "Vanderbilt University", 60348, 60348));
         //Texas
         universities.add(new University("Utah", "Brigham Young University", 6304, 6304));
         universities.add(new University("Utah", "Ensign College", 3766, 3766));
