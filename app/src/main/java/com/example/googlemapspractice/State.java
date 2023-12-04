@@ -4,6 +4,7 @@ import org.parceler.Parcel;
 
 @Parcel
 public class State {
+
     public String name;
     public double stateTax;
     public double incomeTax;
@@ -33,5 +34,4 @@ public class State {
         this.miscellaneousIndex = miscellaneousIndex;
         this.averageSalary = averageSalary;
     }
-
 }

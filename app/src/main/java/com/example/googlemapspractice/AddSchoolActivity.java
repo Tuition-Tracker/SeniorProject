@@ -12,25 +12,21 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class AddSchoolActivity extends AppCompatActivity {
 
-    private EditText schoolNameET, locationET, incomeET;
+    private EditText schoolNameET, locationET;
     private RadioGroup tuitionRadioGroup;
-    private List<University> universities = new ArrayList<>();
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_school);
         initWidgets();
     }
 
-    private void initWidgets()
-    {
+    private void initWidgets() {
         schoolNameET = findViewById(R.id.schoolNameET);
         locationET = findViewById(R.id.locationET);
         tuitionRadioGroup = findViewById(R.id.tuitionRadioGroup);
@@ -68,6 +64,4 @@ public class AddSchoolActivity extends AppCompatActivity {
             Toast.makeText(this, "Error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
         }
     }
-
-
 }

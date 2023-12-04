@@ -10,7 +10,7 @@ public class UniversityData {
         setupUniversities();
     }
 
-    public void setupUniversities(){
+    public void setupUniversities() {
         universities.add(new University("Alabama", "Alabama A & M University", 10024, 18634));
         universities.add(new University("Alabama", "Alabama State University", 11068, 19396));
         universities.add(new University("Alabama", "Amridge University", 9000, 9000));
@@ -2121,4 +2121,3 @@ public class UniversityData {
         return 0;
     }
 }
-

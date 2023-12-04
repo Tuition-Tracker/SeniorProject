@@ -19,7 +19,7 @@ public class HowItWorks extends AppCompatActivity implements View.OnClickListene
         assignId(back,R.id.back);
     }
 
-    void assignId(Button btn,int id){
+    void assignId(Button btn,int id) {
         btn = findViewById(id);
         btn.setOnClickListener(this);
     }

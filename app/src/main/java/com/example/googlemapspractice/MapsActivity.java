@@ -20,8 +20,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private GoogleMap mMap;
     private ActivityMapsBinding binding;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -34,7 +32,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-
     }
 
     /**
@@ -56,10 +53,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         ArrayList<School> schoolList = School.schoolList;
         for (School school : schoolList) {
-
             LatLng dest = new LatLng(school.getLat(), school.getLon());
             mMap.addMarker(new MarkerOptions().position(dest).title(school.getSchoolName()));
-
         }
     }
 }

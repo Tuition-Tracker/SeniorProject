@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class TaxesActivity extends AppCompatActivity {
+
     private static double baseFederalTax = 0;
     private static double taxRate = 0.0;
     public static double income = 0.0;
@@ -48,7 +49,6 @@ public class TaxesActivity extends AppCompatActivity {
         federalTax = baseFederalTax + (taxRate * (income - incomeTaxCutoff));
         medicareTax = income * medicareTaxRate;
         socialSecurityTax = income * socialSecurityTaxRate;
-        //System.out.println(federalTax + medicareTax + socialSecurityTax);
     }
 
     public static void setTaxRate() {
@@ -92,6 +92,5 @@ public class TaxesActivity extends AppCompatActivity {
 
         tax = "$" + String.valueOf(socialSecurityTax);
         socialSecurityTaxView.setText(tax);
-
     }
 }

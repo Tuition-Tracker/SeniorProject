@@ -3,7 +3,6 @@ package com.example.googlemapspractice;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class Data {
     Map<String, State> states = new HashMap<String, State>();
 

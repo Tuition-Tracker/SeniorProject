@@ -60,11 +60,6 @@ public class ComparisonActivity extends AppCompatActivity {
         stateTwo = (State) Parcels.unwrap(getIntent().getParcelableExtra("stateTwo"));
         income = getIntent().getStringExtra("income");
 
-        // Debugging
-//        Log.d("name", "onCreate: " + stateOne.name);
-//        Log.d("name", "onCreate: " + stateTwo.name);
-//        Log.d("name", "onCreate: $" + income);
-
         showData();
     }
 

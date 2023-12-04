@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button compareSchools;
     Button myschools;
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         assignId(howitworks,R.id.howitworks);
     }
 
-    void assignId(Button btn, int id){
+    void assignId(Button btn, int id) {
         btn = findViewById(id);
         btn.setOnClickListener(this);
     }
@@ -33,24 +33,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         Button button = (Button) view;
         String buttonText = button.getText().toString();
+
         if (buttonText.equals("compare state taxes")) {
             Log.d("compare", "onClick: Clicked compare schools button");
             Intent compareIntent = new Intent(getBaseContext(), CompareSchoolsActivity.class);
             startActivity(compareIntent);
-            //Intent myIntent = new Intent(getBaseContext(), CompareSchoolsActivity.class);
-            //startActivity(myIntent);
             return;
         }
+
         if (buttonText.equals("my schools")) {
             Intent myIntent = new Intent(getBaseContext(), MySchools.class);
             startActivity(myIntent);
             return;
         }
+
         if (buttonText.equals("how it works")) {
             Intent myIntent = new Intent(getBaseContext(), HowItWorks.class);
             startActivity(myIntent);
             return;
         }
-
     }
 }

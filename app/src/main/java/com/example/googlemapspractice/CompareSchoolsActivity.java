@@ -12,9 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import org.parceler.Parcels;
 
-public class CompareSchoolsActivity extends AppCompatActivity implements View.OnClickListener{
+public class CompareSchoolsActivity extends AppCompatActivity implements View.OnClickListener {
 
-    //private List<StateNameItem> stateNameItemList;
     AutoCompleteTextView stateOneAutoCompleteTextView;
     AutoCompleteTextView stateTwoAutoCompleteTextView;
 
@@ -28,8 +27,6 @@ public class CompareSchoolsActivity extends AppCompatActivity implements View.On
 
         // Get components
         Button seeTaxesButton = findViewById(R.id.seeTaxesButton);
-        //Button seeStateOneInfoButton = findViewById(R.id.seeStateOneInfoButton);
-        //Button seeStateTwoInfoButton = findViewById(R.id.seeStateTwoInfoButton);
         Button startComparisonButton = findViewById(R.id.startComparisonButton);
         EditText enterIncomeEditText = findViewById(R.id.enterIncomeEditText);
         stateOneAutoCompleteTextView = findViewById(R.id.firstStateACTV);
@@ -39,7 +36,7 @@ public class CompareSchoolsActivity extends AppCompatActivity implements View.On
         String[] stateNameArray = getResources().getStringArray(R.array.stateNames);
 
         // Make array adapter
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(CompareSchoolsActivity.this,
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(CompareSchoolsActivity.this,
                 androidx.appcompat.R.layout.support_simple_spinner_dropdown_item,
                 stateNameArray);
 
@@ -51,41 +48,34 @@ public class CompareSchoolsActivity extends AppCompatActivity implements View.On
         stateData = new Data();
 
         // Set onclick listeners
-        startComparisonButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (stateOneAutoCompleteTextView.getText().toString().equals("") ||
-                        stateTwoAutoCompleteTextView.getText().toString().equals("") ||
-                        enterIncomeEditText.getText().toString().equals("")
-                ) {
-                    // Make Toast later
-                    return;
-                }
-                String stateOneName = stateOneAutoCompleteTextView.getText().toString();
-                String stateTwoName = stateTwoAutoCompleteTextView.getText().toString();
-                State stateOne = stateData.states.get(stateOneName);
-                State stateTwo = stateData.states.get(stateTwoName);
-
-                Intent comparisonIntent = new Intent(CompareSchoolsActivity.this, ComparisonActivity.class);
-                comparisonIntent.putExtra("income", enterIncomeEditText.getText().toString());
-                comparisonIntent.putExtra("stateOne", Parcels.wrap(stateOne));
-                comparisonIntent.putExtra("stateTwo", Parcels.wrap(stateTwo));
-                startActivity(comparisonIntent);
+        startComparisonButton.setOnClickListener(view -> {
+            if (stateOneAutoCompleteTextView.getText().toString().equals("") ||
+                    stateTwoAutoCompleteTextView.getText().toString().equals("") ||
+                    enterIncomeEditText.getText().toString().equals(""))
+            {
+                return;
             }
+            String stateOneName = stateOneAutoCompleteTextView.getText().toString();
+            String stateTwoName = stateTwoAutoCompleteTextView.getText().toString();
+            State stateOne = stateData.states.get(stateOneName);
+            State stateTwo = stateData.states.get(stateTwoName);
+
+            Intent comparisonIntent = new Intent(CompareSchoolsActivity.this, ComparisonActivity.class);
+            comparisonIntent.putExtra("income", enterIncomeEditText.getText().toString());
+            comparisonIntent.putExtra("stateOne", Parcels.wrap(stateOne));
+            comparisonIntent.putExtra("stateTwo", Parcels.wrap(stateTwo));
+            startActivity(comparisonIntent);
         });
 
         // See taxes button
-        seeTaxesButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent taxIntent = new Intent(CompareSchoolsActivity.this, TaxesActivity.class);
-                taxIntent.putExtra("income", Double.parseDouble(enterIncomeEditText.getText().toString()));
-                startActivity(taxIntent);
-            }
+        seeTaxesButton.setOnClickListener(view -> {
+            Intent taxIntent = new Intent(CompareSchoolsActivity.this, TaxesActivity.class);
+            taxIntent.putExtra("income", Double.parseDouble(enterIncomeEditText.getText().toString()));
+            startActivity(taxIntent);
         });
     }
 
-    void assignId(Button btn,int id){
+    void assignId(Button btn,int id) {
         btn = findViewById(id);
         btn.setOnClickListener(this);
     }
@@ -100,5 +90,4 @@ public class CompareSchoolsActivity extends AppCompatActivity implements View.On
             return;
         }
     }
-
 }

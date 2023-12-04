@@ -18,8 +18,7 @@ public class School {
     private double lat;
     private double lon;
 
-    public School(String schoolName, String city, String state, int tuition, double lat, double lon)
-    {
+    public School(String schoolName, String city, String state, int tuition, double lat, double lon) {
         this.schoolName = schoolName;
         this.city = city;
         this.state = state;
@@ -30,13 +29,13 @@ public class School {
         calculateNetIncome();
     }
 
-    private void calculateNetIncome(){
+    private void calculateNetIncome() {
         Data stateData = new Data();
         State stateOne = stateData.states.get(this.state);
 
         double taxes = 0.0;
 
-        // federal income tax
+        // Federal income tax
         if (this.annualIncome >= 523601){
             taxes += 157804.25 + 0.37*(this.annualIncome-523600);
         }
@@ -59,10 +58,10 @@ public class School {
             taxes += 0.1*(this.annualIncome);
         }
 
-        // social security and medicare taxes
+        // Social security and medicare taxes
         taxes += 0.0765*(this.annualIncome);
 
-        // state income tax
+        // State income tax
         taxes += stateOne.incomeTax*(this.annualIncome);
 
         this.netIncome = this.annualIncome - taxes;
@@ -76,9 +75,7 @@ public class School {
         return city;
     }
 
-    public int getAnnualIncome() {
-        return annualIncome;
-    }
+    public int getAnnualIncome() { return annualIncome; }
 
     public double getNetIncome() {
         return netIncome;
@@ -95,18 +92,6 @@ public class School {
     public double getTuition() {
         return tuition;
     }
-
-
-    /*
-    public static double getTuition(String name, boolean isInState) {
-        if (isInState) {
-            return inStateTuition;
-        } else {
-            return outOfStateTuition;
-        }
-    }
-
-     */
 
     public double getLat(){
         return lat;

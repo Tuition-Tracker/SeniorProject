@@ -103,8 +103,6 @@
             android:text="Out-of-State Tuition"/>
     </RadioGroup>
 
-
-
     <Button
         android:id="@+id/save"
         android:layout_width="300dp"
