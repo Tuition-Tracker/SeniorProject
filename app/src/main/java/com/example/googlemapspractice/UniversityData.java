@@ -2052,7 +2052,49 @@ public class UniversityData {
         universities.add(new University("West Virginia", "West Virginia University at Parkersburg", 2712, 9648));
         universities.add(new University("West Virginia", "West Virginia Wesleyan College", 27858, 27858));
         universities.add(new University("West Virginia", "Wheeling Jesuit University", 28030, 28030));
-        //Wisconsin
+        universities.add(new University("Wisconsin", "Alverno College", 31858, 31858));
+        universities.add(new University("Wisconsin", "Bellin College", 21900, 21900));
+        universities.add(new University("Wisconsin", "Beloit College", 56312, 56312));
+        universities.add(new University("Wisconsin", "Bryant & Stratton College - Wauwatosa", 19267, 19267));
+        universities.add(new University("Wisconsin", "Cardinal Stritch University", 35444, 35444));
+        universities.add(new University("Wisconsin", "Carroll University", 36190, 36190));
+        universities.add(new University("Wisconsin", "Carthage College", 34500, 34500));
+        universities.add(new University("Wisconsin", "College of Menominee Nation", 6200, 6200));
+        universities.add(new University("Wisconsin", "Concordia University - Wisconsin", 33062, 33062));
+        universities.add(new University("Wisconsin", "Edgewood College", 33550, 33550));
+        universities.add(new University("Wisconsin", "Herzing University - Brookfield", 12750, 12750));
+        universities.add(new University("Wisconsin", "Herzing University - Kenosha", 12750, 12750));
+        universities.add(new University("Wisconsin", "Herzing University - Madison", 12750, 12750));
+        universities.add(new University("Wisconsin", "Lac Courte Oreilles Ojibwe University", 6030, 6030));
+        universities.add(new University("Wisconsin", "Lakeland University", 31786, 31786));
+        universities.add(new University("Wisconsin", "Lawrence University", 53979, 53979));
+        universities.add(new University("Wisconsin", "Maranatha Baptist University", 18810, 18810));
+        universities.add(new University("Wisconsin", "Marian University", 30000, 30000));
+        universities.add(new University("Wisconsin", "Marquette University", 46670, 46670));
+        universities.add(new University("Wisconsin", "Milwaukee Institute of Art & Design", 41140, 41140));
+        universities.add(new University("Wisconsin", "Milwaukee School of Engineering", 46506, 46506));
+        universities.add(new University("Wisconsin", "Mount Mary University", 33390, 33390));
+        universities.add(new University("Wisconsin", "Northland College", 41237, 41237));
+        universities.add(new University("Wisconsin", "Ottawa University - Milwaukee", 11976, 11976));
+        universities.add(new University("Wisconsin", "Ripon College", 49600, 49600));
+        universities.add(new University("Wisconsin", "Saint Norbert College", 43204, 43204));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Eau Claire", 8914, 17627));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Green Bay", 7873, 16091));
+        universities.add(new University("Wisconsin", "University of Wisconsin - La Crosse", 9232, 18051));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Madison", 10796, 39427));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Milwaukee", 9620, 21485));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Milwaukee Flex", 6750, 6750));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Oshkosh", 7795, 15368));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Parkside", 7466, 15736));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Parkside Flex", 6750, 6750));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Platteville", 7862, 16800));
+        universities.add(new University("Wisconsin", "University of Wisconsin - River Falls", 8135, 16128));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Stevens Point", 8376, 17080));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Stout", 9663, 17930));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Superior", 8167, 15740));
+        universities.add(new University("Wisconsin", "University of Wisconsin - Whitewater", 7864, 17039));
+        universities.add(new University("Wisconsin", "Viterbo University", 31150, 31150));
+        universities.add(new University("Wisconsin", "Wisconsin Lutheran College", 33762, 33762));
         universities.add(new University("Wyoming", "Central Wyoming College", 4680, 10980));
         universities.add(new University("Wyoming", "Laramie County Community College", 4613, 10913));
         universities.add(new University("Wyoming", "Northwest College", 4862, 11162));
@@ -2064,8 +2106,6 @@ public class UniversityData {
     private String location;
     private int inStateTuition;
     private int outOfStateTuition;
-
-    // Constructor and other methods...
 
     // Method to get tuition based on the type of tuition (in-state or out-of-state)
     public static int getTuition(String name, boolean isInState) {
