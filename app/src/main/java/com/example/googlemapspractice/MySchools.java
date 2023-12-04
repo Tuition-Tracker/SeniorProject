@@ -34,25 +34,21 @@ public class MySchools extends AppCompatActivity implements View.OnClickListener
     public void onClick(View view) {
         Button button = (Button) view;
         String buttonText = button.getText().toString();
-
         if (buttonText.equals("back")) {
             Intent myIntent = new Intent(getBaseContext(), MainActivity.class);
             startActivity(myIntent);
             return;
         }
-
         if (buttonText.equals("add new schools")) {
             Intent myIntent = new Intent(getBaseContext(), AddSchoolActivity.class);
             startActivity(myIntent);
             return;
         }
-
         if (buttonText.equals("View by Map")) {
             Intent myIntent = new Intent(getBaseContext(), MapsActivity.class);
             startActivity(myIntent);
             return;
         }
-
         if (buttonText.equals("View by List")) {
             Intent myIntent = new Intent(getBaseContext(), ViewByListActivity.class);
             startActivity(myIntent);
