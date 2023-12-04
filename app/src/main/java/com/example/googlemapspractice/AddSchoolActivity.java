@@ -45,7 +45,7 @@ public class AddSchoolActivity extends AppCompatActivity {
             try {
                 addresses = geocoder.getFromLocation(coords.get(0).getLatitude(), coords.get(0).getLongitude(), 1);
             } catch (IOException e) {
-                e.printStackTrace();
+                return;
             }
             String cityName = addresses.get(0).getLocality();
             String state = addresses.get(0).getAdminArea();
