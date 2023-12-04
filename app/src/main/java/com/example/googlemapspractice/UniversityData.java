@@ -2031,7 +2031,27 @@ public class UniversityData {
         universities.add(new University("Washington", "Cornish College of the Arts", 36844, 36844));
         universities.add(new University("Washington", "Gonzaga University", 50735, 50735));
         universities.add(new University("Washington", "DigiPen Institute of Technology", 35900, 35900));
-        //West Virginia
+        universities.add(new University("West Virginia", "Alderson-Broaddus College", 22740, 22740));
+        universities.add(new University("West Virginia", "American Public University System", 8000, 8000));
+        universities.add(new University("West Virginia", "Appalachian Bible College", 13590, 13590));
+        universities.add(new University("West Virginia", "Bethany College", 25736, 25736));
+        universities.add(new University("West Virginia", "Bluefield State College", 5832, 11064));
+        universities.add(new University("West Virginia", "Concord University", 6422, 14118));
+        universities.add(new University("West Virginia", "Davis & Elkins College", 24992, 24992));
+        universities.add(new University("West Virginia", "Fairmont State University", 5824, 12288));
+        universities.add(new University("West Virginia", "Glenville State College", 6696, 15120));
+        universities.add(new University("West Virginia", "Marshall University", 6526, 15026));
+        universities.add(new University("West Virginia", "Ohio Valley University", 19260, 19260));
+        universities.add(new University("West Virginia", "Salem International University", 17700, 17700));
+        universities.add(new University("West Virginia", "Shepherd University", 6570, 16628));
+        universities.add(new University("West Virginia", "University of Charleston", 23200, 23200));
+        universities.add(new University("West Virginia", "West Liberty University", 6226, 13540));
+        universities.add(new University("West Virginia", "West Virginia State University", 6228, 14558));
+        universities.add(new University("West Virginia", "West Virginia University", 6960, 20424));
+        universities.add(new University("West Virginia", "West Virginia University Institute of Technology", 6048, 15192));
+        universities.add(new University("West Virginia", "West Virginia University at Parkersburg", 2712, 9648));
+        universities.add(new University("West Virginia", "West Virginia Wesleyan College", 27858, 27858));
+        universities.add(new University("West Virginia", "Wheeling Jesuit University", 28030, 28030));
         //Wisconsin
         universities.add(new University("Wyoming", "Central Wyoming College", 4680, 10980));
         universities.add(new University("Wyoming", "Laramie County Community College", 4613, 10913));
