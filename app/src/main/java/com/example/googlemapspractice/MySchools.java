@@ -14,6 +14,11 @@ public class MySchools extends AppCompatActivity implements View.OnClickListener
     Button list;
     Button add;
 
+    void assignId(Button btn,int id){
+        btn = findViewById(id);
+        btn.setOnClickListener(this);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,16 +30,10 @@ public class MySchools extends AppCompatActivity implements View.OnClickListener
         assignId(add,R.id.add);
     }
 
-    void assignId(Button btn,int id){
-        btn = findViewById(id);
-        btn.setOnClickListener(this);
-    }
-
     @Override
     public void onClick(View view) {
         Button button = (Button) view;
         String buttonText = button.getText().toString();
-
         if (buttonText.equals("back")) {
             Intent myIntent = new Intent(getBaseContext(), MainActivity.class);
             startActivity(myIntent);
