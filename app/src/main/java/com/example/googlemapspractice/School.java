@@ -5,18 +5,18 @@ import java.util.ArrayList;
 public class School {
     public static ArrayList<School> schoolList = new ArrayList<>();
 
-    private String schoolName;
-    private String city;
-    private String state;
+    private final String schoolName;
+    private final String city;
+    private final String state;
 
     private int annualIncome;
     private double netIncome;
     private int inStateTuition;
     private int outStateTuition;
-    private int tuition;
+    private final int tuition;
 
-    private double lat;
-    private double lon;
+    private final double lat;
+    private final double lon;
 
     public School(String schoolName, String city, String state, int tuition, double lat, double lon) {
         this.schoolName = schoolName;

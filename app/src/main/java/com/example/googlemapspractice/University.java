@@ -3,8 +3,8 @@ package com.example.googlemapspractice;
 public class University {
     private String state;
     private String name;
-    private int inStateTuition;
-    private int outOfStateTuition;
+    private final int inStateTuition;
+    private final int outOfStateTuition;
 
     // Constructor
     public University(String state, String name, int inStateTuition, int outOfStateTuition) {

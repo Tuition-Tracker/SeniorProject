@@ -87,7 +87,6 @@ public class CompareSchoolsActivity extends AppCompatActivity implements View.On
         if (buttonText.equals("back")) {
             Intent myIntent = new Intent(getBaseContext(), MainActivity.class);
             startActivity(myIntent);
-            return;
         }
     }
 }

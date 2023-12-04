@@ -31,7 +31,6 @@ public class HowItWorks extends AppCompatActivity implements View.OnClickListene
         if (buttonText.equals("back")) {
             Intent myIntent = new Intent(getBaseContext(), MainActivity.class);
             startActivity(myIntent);
-            return;
         }
     }
 }

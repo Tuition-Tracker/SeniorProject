@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Data {
-    Map<String, State> states = new HashMap<String, State>();
+    Map<String, State> states = new HashMap<>();
 
     public Data() {
         initStateData();

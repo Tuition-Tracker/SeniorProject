@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (buttonText.equals("how it works")) {
             Intent myIntent = new Intent(getBaseContext(), HowItWorks.class);
             startActivity(myIntent);
-            return;
         }
     }
 }

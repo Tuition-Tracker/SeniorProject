@@ -106,7 +106,6 @@ public class ViewByListActivity extends AppCompatActivity implements View.OnClic
         if (buttonText.equals("Add New School +")) {
             Intent myIntent = new Intent(getBaseContext(), AddSchoolActivity.class);
             startActivity(myIntent);
-            return;
         }
     }
 }

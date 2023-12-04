@@ -2,7 +2,6 @@ package com.example.googlemapspractice;
 
 import android.os.Bundle;
 import android.widget.TextView;
-import android.graphics.Color;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,7 +11,8 @@ public class ComparisonActivity extends AppCompatActivity {
     State stateOne;
     State stateTwo;
     String income = "";
-    int s1Color, s2Color;
+    int s1Color;
+    int s2Color;
 
     TextView stateOneName, stateTwoName;
     TextView stateOneStateTax, stateTwoStateTax;
@@ -69,9 +69,9 @@ public class ComparisonActivity extends AppCompatActivity {
         stateTwoName.setText(stateTwo.name);
 
         // State Tax
-        String string = String.valueOf(stateOne.stateTax) + "%";
+        String string = stateOne.stateTax + "%";
         stateOneStateTax.setText(string);
-        string = String.valueOf(stateTwo.stateTax) + "%";
+        string = stateTwo.stateTax + "%";
         stateTwoStateTax.setText(string);
 
         if (stateOne.stateTax != stateTwo.stateTax) {
@@ -82,9 +82,9 @@ public class ComparisonActivity extends AppCompatActivity {
         }
 
         // Income Tax
-        string = String.valueOf(stateOne.incomeTax*100) + "%";
+        string = stateOne.incomeTax * 100 + "%";
         stateOneIncomeTax.setText(string);
-        string = String.valueOf(stateTwo.incomeTax*100) + "%";
+        string = stateTwo.incomeTax * 100 + "%";
         stateTwoIncomeTax.setText(string);
 
         if (stateOne.incomeTax != stateTwo.incomeTax) {
@@ -98,13 +98,13 @@ public class ComparisonActivity extends AppCompatActivity {
         Double stateTaxDeduction = (Double.parseDouble(income)) * (stateOne.stateTax / 100);
         Double incomeTaxDeduction = (Double.parseDouble(income)) * (stateOne.incomeTax / 100);
         Double state1TakeHomePay = Double.parseDouble(income) - stateTaxDeduction - incomeTaxDeduction;
-        string = "$" + String.valueOf(state1TakeHomePay);
+        string = "$" + state1TakeHomePay;
         stateOneTakeHomePay.setText(string);
 
         stateTaxDeduction = (Double.parseDouble(income)) * (stateTwo.stateTax / 100);
         incomeTaxDeduction = (Double.parseDouble(income)) * (stateTwo.incomeTax / 100);
         Double state2TakeHomePay = Double.parseDouble(income) - stateTaxDeduction - incomeTaxDeduction;
-        string = "$" + String.valueOf(state2TakeHomePay);
+        string = "$" + state2TakeHomePay;
         stateTwoTakeHomePay.setText(string);
 
         if (stateOneTakeHomePay != stateTwoTakeHomePay) {

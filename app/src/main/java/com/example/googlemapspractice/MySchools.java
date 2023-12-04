@@ -55,7 +55,6 @@ public class MySchools extends AppCompatActivity implements View.OnClickListener
         if (buttonText.equals("View by List")) {
             Intent myIntent = new Intent(getBaseContext(), ViewByListActivity.class);
             startActivity(myIntent);
-            return;
         }
     }
 }

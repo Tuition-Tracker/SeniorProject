@@ -11,8 +11,8 @@ public class TaxesActivity extends AppCompatActivity {
     private static double taxRate = 0.0;
     public static double income = 0.0;
     private static double incomeTaxCutoff = 0;
-    private static double medicareTaxRate = 0.0145;
-    private static double socialSecurityTaxRate = 0.062;
+    private static final double medicareTaxRate = 0.0145;
+    private static final double socialSecurityTaxRate = 0.062;
     TextView federalTaxView;
     TextView medicareTaxView;
     TextView socialSecurityTaxView;
@@ -84,13 +84,13 @@ public class TaxesActivity extends AppCompatActivity {
     }
 
     private void setText() {
-        String tax = "$" + String.valueOf(federalTax);
+        String tax = "$" + federalTax;
         federalTaxView.setText(tax);
 
-        tax = "$" + String.valueOf(medicareTax);
+        tax = "$" + medicareTax;
         medicareTaxView.setText(tax);
 
-        tax = "$" + String.valueOf(socialSecurityTax);
+        tax = "$" + socialSecurityTax;
         socialSecurityTaxView.setText(tax);
     }
 }
