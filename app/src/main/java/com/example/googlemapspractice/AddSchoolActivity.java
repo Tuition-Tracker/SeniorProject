@@ -16,7 +16,8 @@ import java.util.List;
 
 public class AddSchoolActivity extends AppCompatActivity {
 
-    private EditText schoolNameET, locationET;
+    private EditText schoolNameET;
+    private EditText locationET;
     private RadioGroup tuitionRadioGroup;
 
     @Override
